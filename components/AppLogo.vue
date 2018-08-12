@@ -1,9 +1,6 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
+  <div >
+    <img style="width: 100%" src="/kfug_logo.png" alt="">
   </div>
 </template>
 

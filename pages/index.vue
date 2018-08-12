@@ -3,20 +3,26 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        frontconf2018
+        2018 Nov
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        FRONTEND CONFERENCE 2018
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href=""
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--green">Join Slack</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href=""
           target="_blank"
-          class="button--grey">GitHub</a>
+          class="button--orange">GitHub</a>
+
+        <p class="prevLinks" style="margin: 1em">
+          <a href="http://kfug.jp/frontconf2016/">2016</a>
+          &nbsp;
+          <a href="http://kfug.jp/frontconf2017/">2017</a>
+        </p>
       </div>
     </div>
   </section>
@@ -45,9 +51,11 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 60px;
+  line-height: 80px;
   color: #35495e;
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 .subtitle {
@@ -60,6 +68,14 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.prevLinks a{
+  color: #26ACE0;
+  font-weight: bold;
+}
+.prevLinks a:visited{
+  color: #26ACE0;
 }
 </style>
 
