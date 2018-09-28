@@ -43,7 +43,7 @@
           <i class="fab fa-twitter"></i>
           <span>twitterアカウント</span>
         </a>
-        <a href="https://www.facebook.com/frontconf2017" target="_blank" class="btn">
+        <a href="https://www.facebook.com/frontconf2018" target="_blank" class="btn">
           <i class="fab fa-facebook-f"></i>
           <span>Facebookページ</span>
         </a>
