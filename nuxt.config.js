@@ -5,13 +5,28 @@ module.exports = {
   head: {
     title: 'FRONTEND CONFERENCE 2018',
     meta: [
+      //TODO ディスクリプション差し込み
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2017年 11月24日 大阪' }
+      { hid: 'description', name: 'description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2017年 11月24日 大阪グランフロント' },
+
+      { property: 'og:title', content: 'FRONTEND CONFERENCE 2018' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:description', content: 'ほげ' },
+      { property: 'og:url', content: 'http://kfug.jp/frontconf2018/' },
+      { property: 'og:image', content: 'http://kfug.jp/frontconf2018/ogp.jpg' },
+
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:url', content: 'http://kfug.jp/frontconf2018/' },
+      { name: 'twitter:title', content: 'FRONTEND CONFERENCE 2018' },
+      { name: 'twitter:description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2017年 11月24日 大阪グランフロント' },
+      { name: 'twitter:image', content: 'http://kfug.jp/frontconf2018/ogp.jpg' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Capriola' },
+      { rel: 'stylesheet',  href: 'https://use.fontawesome.com/releases/v5.3.1/css/all.css', integrity: 'sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU', crossorigin:'anonymous' }
+    ],
   },
   css:[
     "~/assets/scss/app.scss"
