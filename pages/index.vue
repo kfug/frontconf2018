@@ -34,6 +34,22 @@
         </a>
       </div>
     </div>
+    <div class="sec-wanted">
+      <div class="container">
+        <h2 class="title">
+          SPONSOR
+        </h2>
+        <p class="description">
+          FRONTEND CONFERENCE 2018 では<br>
+          スポンサー企業様のご協賛をお待ちしております！<br>
+          <br>
+          求人やサービス紹介、などスポンサー様の露出ご要望等に添えるスポンサーメニューをご用意しておりますので、ご興味の企業様は、下記のフォームよりご連絡の上、資料請求のお手続きをよろしくお願いいたします。
+        </p>
+        <a href="https://docs.google.com/forms/d/1NDzn_9PYl28Ew86rrAZ8KryfUc7V5VEYhnJNT4SekPY/" target="_blank" class="btn">
+          <span>スポンサー申し込み</span>
+        </a>
+      </div>
+    </div>
     <div class="sec-footer">
       <div class="container">
         <p class="description">
@@ -124,7 +140,7 @@ export default {
       }
     }
     .description {
-      margin: 0 auto 30px;
+      margin: 0 auto 50px;
       max-width: 680px;
     }
     .btn {
@@ -134,6 +150,41 @@ export default {
       min-width: 280px;
       color: #444A64;
       background: white;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+  .sec-wanted {
+    padding: 40px 0 60px;
+    color: #444A64;
+    background: white;
+
+    @include desktop {
+      padding: 90px 0;
+    }
+
+    .title {
+      margin-bottom: 1em;
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+      font-family: 'Capriola', sans-serif;
+      @include desktop {
+        font-size: 4rem;
+      }
+    }
+    .description {
+      margin: 0 auto 50px;
+      max-width: 680px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 9999px;
+      min-width: 280px;
+      color: white;
+      background: linear-gradient(left, #9c94de 1%,#bf94a0 49%,#FA8782 100%);
 
       &:hover {
         opacity: .6;

@@ -5,22 +5,21 @@ module.exports = {
   head: {
     title: 'FRONTEND CONFERENCE 2018',
     meta: [
-      //TODO ディスクリプション差し込み
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2017年 11月24日 大阪グランフロント' },
+      { hid: 'description', name: 'description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2018 11月24日 大阪グランフロント' },
 
       { property: 'og:title', content: 'FRONTEND CONFERENCE 2018' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:description', content: 'ほげ' },
-      { property: 'og:url', content: 'http://kfug.jp/frontconf2018/' },
-      { property: 'og:image', content: 'http://kfug.jp/frontconf2018/ogp.jpg' },
+      { property: 'og:description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2018 11月24日 大阪グランフロント' },
+      { property: 'og:url', content: 'https://2018.kfug.jp/' },
+      { property: 'og:image', content: 'https://2018.kfug.jp/ogp.jpg' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:url', content: 'http://kfug.jp/frontconf2018/' },
+      { name: 'twitter:url', content: 'https://2018.kfug.jp/' },
       { name: 'twitter:title', content: 'FRONTEND CONFERENCE 2018' },
-      { name: 'twitter:description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2017年 11月24日 大阪グランフロント' },
-      { name: 'twitter:image', content: 'http://kfug.jp/frontconf2018/ogp.jpg' }
+      { name: 'twitter:description', content: 'Webで働く全ての人のために、FRONTEND CONFERENCE 2018 11月24日 大阪グランフロント' },
+      { name: 'twitter:image', content: 'https://2018.kfug.jp/ogp.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
