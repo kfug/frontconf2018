@@ -13,25 +13,44 @@
         </p>
       </div>
     </div>
-    <div class="sec-about">
+    <div class="sec-mainWrap">
+      <div class="sec-about">
+        <div class="container">
+          <h2 class="title">
+            FRONTEND CONFERENCE 2018
+          </h2>
+          <p class="description">
+            2016 , 2017 年とたくさんの人に来場頂いた
+            関西最大級のフロントエンド製作者向けイベント FRONTEND CONFERENCE が
+            今年も開催されます！<br><br>
+
+            例年通り、 デザイナもエンジニアも、職種問わず
+            Webに携わるすべての人が楽しめるイベントとして
+            様々なセッション・企画等を検討中です！<br><br>
+
+            詳細はConnpassをご確認ください
+          </p>
+          <a href="https://kfug.connpass.com/event/98855/" target="_blank" class="btn">
+            <span>connpassページへ</span>
+          </a>
+        </div>
+      </div>
       <div class="container">
-        <h2 class="title">
-          FRONTEND CONFERENCE 2018
-        </h2>
-        <p class="description">
-          2016 , 2017 年とたくさんの人に来場頂いた
-          関西最大級のフロントエンド製作者向けイベント FRONTEND CONFERENCE が
-          今年も開催されます！<br><br>
+        <hr>
+      </div>
+      <div class="sec-session">
+        <div class="container">
 
-          例年通り、 デザイナもエンジニアも、職種問わず
-          Webに携わるすべての人が楽しめるイベントとして
-          様々なセッション・企画等を検討中です！<br><br>
-
-          詳細はConnpassをご確認ください
-        </p>
-        <a href="https://kfug.connpass.com/event/98855/" target="_blank" class="btn">
-          <span>connpassページへ</span>
-        </a>
+          <h2 class="title">
+            SESSIONS
+          </h2>
+          <p class="description">
+            フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております。
+          </p>
+          <router-link to="/session" class="btn">
+            <span>セッション一覧を見る</span>
+          </router-link>
+        </div>
       </div>
     </div>
     <div class="sec-wanted">
@@ -122,10 +141,50 @@ export default {
       }
     }
   }
+  .sec-mainWrap {
+    color: white;
+    background: linear-gradient(left, #9c94de 1%,#bf94a0 49%,#FA8782 100%);
+
+    hr {
+      background: white;
+    }
+  }
   .sec-about {
     padding: 40px 0 60px;
     color: white;
-    background: linear-gradient(left, #9c94de 1%,#bf94a0 49%,#FA8782 100%);
+    @include desktop {
+      padding: 90px 0;
+    }
+
+    .title {
+      margin-bottom: 1em;
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+      font-family: 'Capriola', sans-serif;
+      @include desktop {
+        font-size: 4rem;
+      }
+    }
+    .description {
+      margin: 0 auto 50px;
+      max-width: 680px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 9999px;
+      min-width: 280px;
+      color: #444A64;
+      background: white;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+  .sec-session {
+    padding: 40px 0 60px;
+    color: white;
     @include desktop {
       padding: 90px 0;
     }
