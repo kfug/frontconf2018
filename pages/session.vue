@@ -12,18 +12,12 @@
           <p class="description">
             フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております。
           </p>
-
-
-
         </div>
-
-        <div class="session-list">
+        <div class="session-list" v-for="(session,key) in sessions" :key="key">
           <div class="session-item">
-            <h2 class="session-title">25文字でできるフロントエンドあんなことやこんなこと</h2>
-            <span class="session-sub">- サブタイトルがある場合、このエリアにに入ります。-</span>
-            <p class="session-about">
-              それはほかもうその始末者という事のために書いないだ。まあ途中に相違人はあたかもこの損害なうかもを釣っといたへは留学至るたたて、それだけにも掘たたまします。大学でおりない事ははたして先刻にことにでたまし。余計岡田さんを注文自力更に蹂躙から並べだ根本その人間何か講義をという小発展ないらしくうんて、どんな十月は私か弟会をなりが、岡田さんの事を間柄のそこにどうしてもご払底と借りて何利器をお観念が書いように余計ご尊重に潜んなけれですて、どうぞ同時に始末に掘りないが行かでんが起りないです。実はそうしてお様子があっのはとても大丈夫となっますから、その個性からは破るないからという本国がありて来でまし。
-            </p>
+            <h2 class="session-title">{{session.title}}</h2>
+            <span class="session-sub" v-if="session.subtitle">{{session.subtitle}}</span>
+            <p class="session-about" v-html="session.body"></p>
             <hr>
             <div class="speaker-prof">
               <div class="row">
@@ -62,7 +56,6 @@
             </div>
           </div>
         </div>
-
         <router-link to="/" class="btn">
           <span>TOPに戻る</span>
         </router-link>
@@ -77,6 +70,11 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
+  },
+  computed:{
+    sessions(){
+      return this.$store.state.speakers
+    }
   }
 }
 </script>
