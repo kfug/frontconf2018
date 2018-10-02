@@ -47,7 +47,7 @@
           <p class="description">
             フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております。
           </p>
-          <router-link to="/sessin" class="btn">
+          <router-link to="/session" class="btn">
             <span>セッション一覧を見る</span>
           </router-link>
         </div>
