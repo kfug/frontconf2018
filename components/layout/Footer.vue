@@ -45,6 +45,7 @@
 
     @include desktop {
       margin: 100px auto 0;
+      min-height: 450px;
       max-height: 450px;
       overflow: hidden;
       background: url("~/static/images/footer.svg");
@@ -88,7 +89,7 @@
       z-index: 1000;
 
       @include desktop {
-        top: 18%;
+        top: 30%;
       }
 
     }
