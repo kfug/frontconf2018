@@ -1,5 +1,4 @@
-@import "~/assets/scss/_variable.scss";
-@import "~/assets/scss/_mixin.scss";
+@import "~/assets/scss/_library.scss";
 @import "~~/node_modules/bootstrap/dist/css/bootstrap.css";
 
 :root{
@@ -28,6 +27,10 @@ body, html, main {
 
 ::selection {
   background: rgba(113,113,119,0.8);
+}
+
+img {
+  vertical-align: top;
 }
 
 .c-container {

@@ -17,7 +17,7 @@
 </template>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/_mixin.scss";
+  @import "~/assets/scss/library/_mixin.scss";
   .l-footer {
     padding: 40px 0;
     color: white;

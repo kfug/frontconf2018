@@ -1,0 +1,59 @@
+@import "~/assets/scss/library/_variable.scss";
+
+@mixin desktop(){
+  @media(min-width: 768px){
+    @content
+  }
+}
+
+@mixin p-padding {
+  padding: 30px 0 40px;
+  @include desktop {
+    padding: 50px 0 80px;
+  }
+}
+
+@mixin c-block{
+  .c-block {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0 9999px 9999px 0;
+    padding: 60px;
+    max-width: 768px;
+    color: $clr_baseText;
+    background: white;
+
+    .title {
+      margin-bottom: 30px;
+      font-size: 4rem;
+      font-family: 'Limelight', cursive, serif;
+
+    }
+    .description {
+
+    }
+  }
+}
+@mixin c-block--outline{
+  .c-block {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 9999px 0 0 9999px;
+    border: 2px solid white;
+    padding: 60px;
+    max-width: 768px;
+    text-align: left;
+    color: white;
+    background: rgba(0,0,0,.1);
+
+    .title {
+      margin-bottom: 30px;
+      font-size: 4rem;
+      font-family: 'Limelight', cursive, serif;
+
+    }
+    .description {
+
+    }
+  }
+}

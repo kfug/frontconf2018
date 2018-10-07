@@ -1,28 +1,28 @@
 <template>
-    <div class="l-bgWrap">
-      <div class="l-bg">
-        <p-hero></p-hero>
-        <p-hero></p-hero>
-        <p-hero></p-hero>
-        <l-footer></l-footer>
-      </div>
-    </div>
+    <main>
+      <p-hero></p-hero>
+      <p-about></p-about>
+      <p-session></p-session>
+    </main>
 </template>
 
 <script>
 import PHero from '~/components/top/Hero.vue'
-import LFooter from '~/components/layout/Footer.vue'
+import PAbout from '~/components/top/About.vue'
+import PSession from '~/components/top/Session.vue'
+
 
 export default {
   components: {
     PHero,
-    LFooter
+    PAbout,
+    PSession
   }
 }
 </script>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/_mixin.scss";
+  @import "~/assets/scss/_library.scss";
 
   .l-bgWrap {
     min-height: 100%;

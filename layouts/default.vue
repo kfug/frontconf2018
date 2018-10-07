@@ -8,7 +8,7 @@
 </template>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/_mixin.scss";
+  @import "~/assets/scss/_library.scss";
 
   .l-bgWrap {
     min-height: 100%;

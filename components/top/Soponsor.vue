@@ -15,7 +15,6 @@
 </template>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/_mixin.scss";
   .sec-hero {
     padding: 30px 0 40px;
     color: #444A64;

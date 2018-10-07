@@ -14,7 +14,7 @@
 </template>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/_mixin.scss";
+  @import "~/assets/scss/_library.scss";
 
   .p-hero {
     padding: 30px 0 40px;
@@ -22,23 +22,15 @@
     text-align: center;
 
     @include desktop {
-      padding: 50px 0 80px;
+      padding: 50px 0;
     }
 
     .title {
-      margin: 30px 0;
-      max-width: 100%;
-      font-family: 'Capriola', sans-serif;
-      font-size: 4rem;
+      margin: 60px auto 20px;
+      display: block;
+      max-width: 768px;
+      text-align: center;
 
-      line-height: 1.5;
-      background: linear-gradient(left, #9c94de 1%, #bf94a0 49%, #FA8782 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      @include desktop {
-        margin: 50px 0;
-        font-size: 9rem;
-      }
     }
     .concept {
       margin-bottom: 2rem;
