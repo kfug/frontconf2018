@@ -8,8 +8,11 @@
   color: $clr_baseText;
 }
 
-body, html, main {
+html{
+  background: $clr_footer;
+}
 
+body, html, main {
   height: 100%;
 }
 
@@ -21,6 +24,10 @@ body, html, main {
     font-size: 1.8rem;
     line-height: 2;
   }
+}
+
+::selection {
+  background: rgba(113,113,119,0.8);
 }
 
 .c-container {
