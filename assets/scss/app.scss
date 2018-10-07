@@ -1,6 +1,17 @@
+@import "~/assets/scss/_mixin.scss";
 @import "~~/node_modules/bootstrap/dist/css/bootstrap.css";
 
 :root{
   font-size: 62.5%; /*base10px*/
   font-family: YuGothic,'Yu Gothic','メイリオ','Hiragino Sans','ヒラギノ角ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+}
+
+*{
+  color: inherit;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  @include desktop {
+    font-size: 1.8rem;
+    line-height: 2;
+  }
 }
