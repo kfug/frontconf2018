@@ -1,6 +1,6 @@
 <template>
-  <section class="sec-hero">
-    <div class="container">
+  <section class="p-hero">
+    <div class="c-container">
       <h1 class="title">
         FRONTEND <br>
         CONFERENCE <br>
@@ -16,12 +16,13 @@
 
 <style lang="scss" scoped>
   @import "~/assets/scss/_mixin.scss";
-  .sec-hero {
+  .p-hero {
     padding: 30px 0 40px;
     color: #444A64;
-  @include desktop {
-    padding: 50px 0 80px;
-  }
+
+    @include desktop {
+      padding: 50px 0 80px;
+    }
   .title{
     max-width: 100%;
     margin: 30px 0;

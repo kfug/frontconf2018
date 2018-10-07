@@ -1,9 +1,16 @@
+@import "~/assets/scss/_variable.scss";
 @import "~/assets/scss/_mixin.scss";
 @import "~~/node_modules/bootstrap/dist/css/bootstrap.css";
 
 :root{
   font-size: 62.5%; /*base10px*/
   font-family: YuGothic,'Yu Gothic','メイリオ','Hiragino Sans','ヒラギノ角ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  color: $clr_baseText;
+}
+
+body, html, main {
+
+  height: 100%;
 }
 
 *{
@@ -13,5 +20,14 @@
   @include desktop {
     font-size: 1.8rem;
     line-height: 2;
+  }
+}
+
+.c-container {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 20px;
+  @include desktop{
+    padding: 0;
   }
 }

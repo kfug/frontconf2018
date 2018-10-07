@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <p-hero></p-hero>
-    <l-footer></l-footer>
-  </div>
+    <div class="l-bgWrap">
+      <div class="l-bg">
+        <p-hero></p-hero>
+        <p-hero></p-hero>
+        <p-hero></p-hero>
+        <l-footer></l-footer>
+      </div>
+    </div>
 </template>
 
 <script>
@@ -19,6 +23,23 @@ export default {
 
 <style lang="scss" scoped>
   @import "~/assets/scss/_mixin.scss";
+
+  .l-bgWrap {
+    min-height: 100%;
+    background: linear-gradient(135deg, #7171c7 0%,#de6d62 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .l-bg {
+    background-image:
+      url(~/static/images/bg_pattern.svg),
+      url(~/static/images/bg_texture.png);
+    background-size: 30%;
+  }
+
+
   .sec-mainWrap {
     color: white;
     background: linear-gradient(left, #9c94de 1%,#bf94a0 49%,#FA8782 100%);
