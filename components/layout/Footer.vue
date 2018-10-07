@@ -33,7 +33,7 @@
 <style lang="scss" scoped>
   @import "~/assets/scss/_library.scss";
   .l-footer {
-    margin: 200px auto 0;
+    margin: 180px auto 0;
     text-align: center;
     min-width: 100%;
     max-width: 980px;

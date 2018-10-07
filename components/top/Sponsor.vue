@@ -30,14 +30,15 @@
 
     @include p-padding;
 
-    .c-btn {
-      @include c-btn;
-    }
-
     .c-container {
       text-align: left;
       position: relative;
     }
+
+    .c-btn {
+      @include c-btn;
+    }
+
     .circle {
       max-width: 40px;
       position: absolute;
