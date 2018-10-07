@@ -6,15 +6,12 @@
       </router-link>
       <div class="container">
         <div class="intro">
-          <h2 class="title">
+          <h2 class="c-title">
             SESSIONS
           </h2>
           <p class="description">
             フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております。
           </p>
-
-
-
         </div>
 
         <div class="session-list">
@@ -63,7 +60,7 @@
           </div>
         </div>
 
-        <router-link to="/" class="btn">
+        <router-link to="/" class="c-btn">
           <span>TOPに戻る</span>
         </router-link>
       </div>
@@ -82,41 +79,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @mixin desktop(){
-    @media(min-width: 768px){
-      @content
-    }
-  }
-  *{
-    color: inherit;
-    font-size: 1.6rem;
-    line-height: 2;
-    @include desktop {
-      font-size: 1.8rem;
-    }
-  }
+  @import "~/assets/scss/_library.scss";
+
   .p-session {
     text-align: center;
     padding: 30px 0 60px;
     color: white;
-    background: linear-gradient(left, #9c94de 1%,#bf94a0 49%,#FA8782 100%);
 
     hr {
       background: white;
     }
 
-    .btn {
-      margin: 0 auto;
-      display: inline-block;
-      padding: 10px;
-      border-radius: 9999px;
-      min-width: 280px;
-      color: #444A64;
-      background: white;
-
-      &:hover {
-        opacity: .6;
-      }
+    .c-btn {
+      @include c-btn--white;
     }
     .btn-close {
       display: inline-block;
@@ -149,14 +124,8 @@ export default {
         padding: 90px 0;
       }
 
-      .title {
-        margin-bottom: 1em;
-        letter-spacing: 2px;
-        font-size: 2.5rem;
-        font-family: 'Capriola', sans-serif;
-        @include desktop {
-          font-size: 4rem;
-        }
+      .c-title {
+        @include title;
       }
       .description {
         margin: 0 auto;
