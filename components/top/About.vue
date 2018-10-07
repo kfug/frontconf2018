@@ -29,7 +29,7 @@
     .c-circle {
       max-width: 60px;
       position: absolute;
-      top: -120px;
+      top: -80px;
       right: 90px;
     }
     .c-line {

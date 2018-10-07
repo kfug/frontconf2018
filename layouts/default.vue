@@ -7,6 +7,16 @@
   </div>
 </template>
 
+<script>
+  import LFooter from '~/components/layout/Footer.vue'
+
+  export default {
+    components: {
+      LFooter
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
   @import "~/assets/scss/_library.scss";
 

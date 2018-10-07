@@ -1,34 +1,47 @@
 <template>
   <footer class="l-footer">
-    <div class="container">
-      <p class="description">
-        「フロントカンファレンス2018」のSNSアカウントをフォローして最新情報チェック！
-      </p>
-      <a href="https://twitter.com/frontkansai" target="_blank" class="btn">
-        <i class="fab fa-twitter"></i>
-        <span>twitterアカウント</span>
-      </a>
-      <a href="https://www.facebook.com/frontconf2018" target="_blank" class="btn">
-        <i class="fab fa-facebook-f"></i>
-        <span>Facebookページ</span>
-      </a>
+    <div class="c-container">
+      <div class="share">
+        <h5 class="title">
+          SHARE
+        </h5>
+        <a href="https://twitter.com/frontkansai" target="_blank" class="btn">
+          <i class="fab fa-twitter"></i>
+          <span>twitterアカウント</span>
+        </a>
+        <a href="https://www.facebook.com/frontconf2018" target="_blank" class="btn">
+          <i class="fab fa-facebook-f"></i>
+          <span>Facebookページ</span>
+        </a>
+      </div>
+
     </div>
   </footer>
 </template>
 
 <style lang="scss" scoped>
-  @import "~/assets/scss/library/_mixin.scss";
+  @import "~/assets/scss/_library.scss";
   .l-footer {
-    padding: 40px 0;
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 500px;
+    text-align: center;
     color: white;
-    background: #444A64;
-    @include desktop {
-      padding: 90px 0;
+    overflow: hidden;
+    background: url("~/static/images/footer.svg");
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .c-container {
+
     }
 
-    .description {
-      margin-bottom: 30px;
+    .title {
+      @include title;
     }
+
 
     .btn {
       display: inline-block;
