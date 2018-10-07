@@ -4,7 +4,7 @@
       <router-link to="/" class="btn-close">
         <img src="~/assets/images/btn-close.png" alt="">
       </router-link>
-      <div class="container">
+      <div class="p-container">
         <div class="intro">
           <h2 class="c-title">
             SESSIONS
@@ -218,9 +218,10 @@ export default {
         }
 
         i {
+          display: inline-block;
           position: absolute;
           left: 50%;
-          transform: translate(-45%, 5%);
+          transform: translate(-45%, 60%);
         }
       }
     }
