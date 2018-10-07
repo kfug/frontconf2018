@@ -17,15 +17,21 @@
   display: inline-block;
   border-radius: 9999px;
   padding: 10px 8px;
-  min-width: 265px;
+  min-width: 220px;
   margin: 1rem;
   text-decoration: none;
   text-align: center;
   color: white;
+  font-weight: bold;
   position: relative;
   overflow: hidden;
   background: $clr_bgGradation;
   transition: all .65s ease;
+
+  @include desktop {
+    min-width: 265px;
+    font-weight: normal;
+  }
   &:before {
     content: "";
     position: absolute;
@@ -61,15 +67,20 @@
   display: inline-block;
   border-radius: 9999px;
   padding: 10px 8px;
-  min-width: 265px;
+  min-width: 220px;
   margin: 1rem;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
   color: $clr_baseText;
   position: relative;
   overflow: hidden;
   background: white;
   transition: all .65s ease;
+  @include desktop {
+    min-width: 265px;
+    font-weight: normal;
+  }
   &:before {
     content: "";
     position: absolute;
@@ -111,6 +122,7 @@
   overflow: hidden;
   background: transparent;
   transition: all .65s ease;
+
   &:before {
     content: "";
     position: absolute;
@@ -144,10 +156,13 @@
   }
 }
 
-@mixin title {
+@mixin c-title {
   margin-bottom: 30px;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Limelight', cursive, serif;
+  @include desktop {
+    font-size: 4rem;
+  }
 }
 
 @mixin c-block{
@@ -155,16 +170,20 @@
     display: inline-block;
     box-sizing: border-box;
     border-radius: 0 9999px 9999px 0;
-    padding: 70px 60px;
-    padding-right: 100px;
+    padding: 70px 25px;
+    padding-right: 80px;
     width: 100%;
     color: $clr_baseText;
     background: white;
 
+    @include desktop {
+      padding: 70px 60px;
+      padding-right: 100px;
+    }
+
+
     .title {
-      margin-bottom: 30px;
-      font-size: 4rem;
-      font-family: 'Limelight', cursive, serif;
+      @include c-title;
 
     }
     .description {
@@ -183,19 +202,24 @@
     box-sizing: border-box;
     border-radius: 9999px 0 0 9999px;
     border: 2px solid white;
-    padding: 70px 60px;
-    padding-left: 100px;
+    padding: 70px 25px;
+    padding-left: 80px;
     width: 100%;
     text-align: left;
     color: white;
     background: rgba(0,0,0,.1);
 
     @include desktop {
+      padding: 70px 60px;
+      padding-left: 100px;
+    }
+
+    @include desktop {
       width: 768px;
     }
 
     .title {
-      @include title;
+      @include c-title;
 
     }
     .description {

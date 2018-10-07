@@ -125,7 +125,7 @@ export default {
       }
 
       .c-title {
-        @include title;
+        @include c-title;
       }
       .description {
         margin: 0 auto;

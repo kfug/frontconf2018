@@ -1,8 +1,8 @@
 <template>
   <section class="p-session">
     <div class="c-container">
-      <img class="c-circle--outline" src="~/static/images/parts_circle-outline.svg">
-      <img class="c-line" src="~/static/images/parts_line.svg">
+      <img class="circle--outline" src="~/static/images/parts_circle-outline.svg">
+      <img class="line" src="~/static/images/parts_line.svg">
       <div class="c-block">
         <h3 class="title">
           SESSIONS
@@ -32,18 +32,26 @@
       text-align: right;
       position: relative;
     }
-    .c-circle--outline {
-      max-width: 60px;
+    .circle--outline {
+      max-width: 50px;
       position: absolute;
       top: -70px;
       left: 200px;
+      @include desktop {
+        max-width: 60px;
+      }
     }
-    .c-line {
-      max-width: 300px;
+    .line {
+      max-width: 160px;
       transform: rotate(73deg);
       position: absolute;
-      top: -180px;
-      left: 60px;
+      top: -80px;
+      left: 150px;
+      @include desktop {
+        max-width: 300px;
+        top: -180px;
+        left: 60px;
+      }
     }
 
     @include c-block--outline;

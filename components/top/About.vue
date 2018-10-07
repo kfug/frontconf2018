@@ -1,8 +1,8 @@
 <template>
   <section class="p-about">
     <div class="c-container">
-      <img class="c-circle" src="~/static/images/parts_circle.svg">
-      <img class="c-line" src="~/static/images/parts_line.svg">
+      <img class="circle" src="~/static/images/parts_circle.svg">
+      <img class="line" src="~/static/images/parts_line.svg">
       <div class="c-block">
         <h3 class="title">
           FRONTEND CONFERENCE 2018
@@ -23,20 +23,31 @@
     @include p-padding;
 
     .c-container {
+      padding: 0;
       text-align: left;
       position: relative;
     }
-    .c-circle {
-      max-width: 60px;
+    .circle {
+      max-width: 30px;
       position: absolute;
-      top: -80px;
-      right: 90px;
+      top: -40px;
+      right: 70px;
+      @include desktop {
+        max-width: 60px;
+        right: 90px;
+      }
+
     }
-    .c-line {
-      max-width: 300px;
+    .line {
+      max-width: 100px;
       position: absolute;
-      top: -200px;
-      right: 0;
+      top: -30px;
+      right: 40px;
+      @include desktop {
+        max-width: 300px;
+        top: -200px;
+        right: 0;
+      }
     }
 
     @include c-block;

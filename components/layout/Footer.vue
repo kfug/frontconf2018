@@ -33,37 +33,67 @@
 <style lang="scss" scoped>
   @import "~/assets/scss/_library.scss";
   .l-footer {
-    margin: 100px auto 0;
+    margin: 200px auto 0;
     text-align: center;
     min-width: 100%;
     max-width: 980px;
     width: 100%;
-    max-height: 450px;
-    overflow: hidden;
+    height: 300px;
     color: white;
-    background: url("~/static/images/footer.svg");
-    background-size: contain;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+    background: $clr_footer;
     position: relative;
 
-    &::after {
-      content: "";
-      display: block;
-      padding-top: 50%;
+    @include desktop {
+      margin: 100px auto 0;
+      max-height: 450px;
+      overflow: hidden;
+      background: url("~/static/images/footer.svg");
+      background-size: contain;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+    }
 
+    &::before{
+      display: block;
+      content: "";
+      width: 100%;
+      height: 250px;
+      background: url("~/static/images/footer.svg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      position: absolute;
+      top : -150px;
+
+      @include desktop {
+        display: none;
+      }
+    }
+
+    &::after {
+      @include desktop {
+        content: "";
+        display: block;
+        padding-top: 50%;
+
+      }
     }
 
     .c-container {
       position: absolute;
       width: 80%;
-      top: 18%;
+      top: -80px;
       left: 50%;
       transform: translateX(-50%);
+      z-index: 1000;
+
+      @include desktop {
+        top: 18%;
+      }
 
     }
     .c-title {
-      @include title;
+      @include c-title;
     }
 
     .c-btn {
@@ -83,16 +113,17 @@
       }
     }
 
-
-
-
     .p-border{
       display: block;
       margin: 0 auto;
-      padding-bottom: 3%;
+      padding-bottom: 30px;
       width: 95%;
       max-width: 700px;
       border-bottom: 1px solid rgba(255,255,255,.2);
+
+      @include desktop {
+        padding-bottom: 3%;
+      }
     }
     .p-official {
       .c-title {

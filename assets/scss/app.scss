@@ -32,12 +32,13 @@ body, html, main {
 img {
   vertical-align: top;
 }
+.p-container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
 
 .c-container {
   margin: 0 auto;
   max-width: 980px;
-  padding: 20px;
-  @include desktop{
-    padding: 0;
-  }
 }
