@@ -42,6 +42,17 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, { isDev, isClient }) {
+      config.module.rules.push({
+        test: /\.yml$/,
+        use: [
+          {
+            loader: require.resolve('json-loader')
+          },
+          {
+            loader: require.resolve('yaml-loader')
+          }
+        ],
+      })
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

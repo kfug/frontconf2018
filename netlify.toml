@@ -1,0 +1,22 @@
+[Settiing]
+
+[build]
+  publish = "dist"
+  command = "npm run generate"
+
+[build.environment]
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview.environment]
+
+# Branch Deploy context: All deploys that are not in
+# an active Deploy Preview will inherit these settings.
+[context.branch-deploy]
+
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.

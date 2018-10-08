@@ -30,8 +30,8 @@
   }
   .l-bg {
     background-image:
-      url(~/static/images/bg_pattern.svg),
-      url(~/static/images/bg_texture.png);
+      url(~assets/images/bg_pattern.svg),
+      url(~assets/images/bg_texture.png);
     background-size: 30%;
   }
 

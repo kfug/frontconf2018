@@ -1,4 +1,4 @@
-var {speakers} = require("json-loader!yaml-loader!../contents/speakers.yml");
+var {speakers} = require("../contents/speakers.yml");
 
 export const state = () => {
   return {
