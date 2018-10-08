@@ -22,7 +22,9 @@
             <div class="speaker-prof">
               <div class="row">
                 <div class="col-sm-auto">
-                  <div class="speaker-icon">
+                  <div class="speaker-icon" v-if="session.image"
+                       :style="{backgroundImage: `url(${session.image})`}"></div>
+                  <div class="speaker-icon" v-else>
                   </div>
                   <div class="speaker-link pc">
                     <a :href="session.twitter" v-if="session.twitter" rel="noopener" target="_blank">

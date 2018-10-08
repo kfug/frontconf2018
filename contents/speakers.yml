@@ -16,7 +16,7 @@ speakers:
     title: Webデザインに本当に必要だったものを考える 2018年版
     name: 榊原昌彦
     team: 一般社団法人リレーションデザイン研究所
-    image: https://pbs.twimg.com/profile_images/894472371779682305/RjStTBFc_400x400.jpg
+    image: /speakers/SP002.jpg
     twitter: https://twitter.com/rdlabo
     facebook: https://www.facebook.com/masa.sakakibara
     url: https://www.rdlabo.jp/
@@ -30,6 +30,7 @@ speakers:
     title: タイポグラフィ・ベーシック
     name: カイト
     team: KITERETZ inc.
+    image: /speakers/SP003.jpg
     twitter: https://twitter.com/ixkaito
     facebook: https://www.facebook.com/kite.koga
     url: https://kiteretz.com/
@@ -52,6 +53,7 @@ speakers:
     title: 業務システムに使えるPWA
     name: 中津川篤司
     team: MOONGIFT（hifiveエバンジェリスト）
+    image: /speakers/SP004.jpg
     twitter: https://twitter.com/goofmint
     facebook: https://fb.me/goofmint
     url: https://www.moongift.jp
