@@ -26,9 +26,43 @@ speakers:
       「Webデザインで賞をとれるようなもの」、いろいろな現場でいろいろな意見があると思います。
       本セッションでは、Webデザインを「Web」というプラットフォームから見直し、本当に求められているものは何かを考えていこうと思います。"
   -
-    email:
-    title:
-    name:
-    team:
-    url:
-    body:
+    email: ixkaito@gmail.com
+    title: タイポグラフィ・ベーシック
+    name: カイト
+    team: KITERETZ inc.
+    twitter: https://twitter.com/ixkaito
+    facebook: https://www.facebook.com/kite.koga
+    url: https://kiteretz.com/
+    body: |
+      Web にも DTP にも役立つタイポグラフィの基礎を解説させていただきます。
+      内容はもちろんですが、スライドはタイポグラフィの資料としても保存版になると思います。
+    profile: |
+      株式会社キテレツ (KITERETZ inc.)　代表取締役
+
+      グラフィックデザイナー、クリエイティブ・ディレクター、世界三大広告賞にも名を連ねる制作会社のウェブデザイナー兼プログラマを経て、
+      株式会社キテレツを設立。クリエイティブからテクノロジーまで、トータルソリューションを提供。
+      WordPress コアコントリビューター、Ruby on Rails コントリビューター、React コントリビューターなど、
+      多くのオープンソースプロジェクトに貢献する一方、Wocker、Frasco など、自身でも数多くのオープンソースソフトウェアを開発。
+
+      著書：
+      『世界一わかりやすいWordPress 導入とサイト制作の教科書』
+      『著作権トラブル解決のバイブル! クリエイターのための権利の本』
+  -
+    email: atsushi@moongift.jp
+    title: 業務システムに使えるPWA
+    name: 中津川篤司
+    team: MOONGIFT（hifiveエバンジェリスト）
+    twitter: https://twitter.com/goofmint
+    facebook: https://fb.me/goofmint
+    url: https://www.moongift.jp
+    body: |
+      PWAとしてアプリ化が良く取り上げられますが、技術要素はそれだけではありません。
+      Cache API、認証、プッシュ通知、indexedDBなどWebアプリケーションを便利にする機能は多数あります。
+
+      このセッションでは特にWebベースの業務システムにおいてPWAを活用するための実用的なテクニックを中心に紹介します。
+      業務システムでは利用者が特定されており、アプリストアでリリースするよりもPWAのメリットが強く打ち出せるでしょう。
+    profile: |
+          株式会社MOONGIFT 代表取締役。
+          ニフクラ mobile backend、hifive 、CloudGarage エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。
+          2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。
+          2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。

@@ -25,31 +25,31 @@
                   <div class="speaker-icon">
                   </div>
                   <div class="speaker-link pc">
-                    <a href="" >
+                    <a :href="session.twitter" v-if="session.twitter" rel="noopener" target="_blank">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="" >
+                    <a :href="session.facebook" v-if="session.facebook" rel="noopener" target="_blank">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="" >
+                    <a :href="session.url" v-if="session.url" rel="noopener" target="_blank">
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
                 </div>
                 <div class="col-sm">
-                  <h3 class="speaker-name">サンプル 太郎</h3>
-                  <span class="speaker-affiliation">株式会社chatbox</span>
-                  <p class="speaker-about">それはほかもうその始末者という事のために書いないだ。まあ途中に相違人はあたかもこの損害なうかもを釣っといたへは留学至るたたて、それだけにも掘たたまします。</p>
+                  <h3 class="speaker-name">{{session.name}}</h3>
+                  <span class="speaker-affiliation">{{session.team}}</span>
+                  <p class="speaker-about" v-html="session.profile" />
                 </div>
               </div>
               <div class="speaker-link sp">
-                <a href="" >
+                <a href="" v-if="session.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="" >
+                <a href="" v-if="session.facebook">
                   <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="" >
+                <a href="" v-if="session.url">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -230,6 +230,7 @@ export default {
       display: none;
       @include desktop{
         display: block;
+        text-align: center;
       }
     }
     .speaker-link.sp {
