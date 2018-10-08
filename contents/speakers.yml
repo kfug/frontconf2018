@@ -1,0 +1,34 @@
+# see https://docs.google.com/spreadsheets/d/1Tapqezc5rLGFjPJSecigfev6f0TCefRFYXynyyN4vhg/edit#gid=572764933
+speakers:
+  -
+    email: onoue@likr-lab.com
+    title: Rust+WebAssemblyで広がるWebの世界
+    name: 尾上洋介
+    team: 日本大学
+    url: https://vdslab.jp/
+    body: |
+      WebAssemblyは、Webブラウザ上で動作する軽量なバイナリ形式言語です。
+      WebAssemblyによって、JavaScript以外のプログラミング言語でWeb開発を行ったり、ネイティブ並のパフォーマンスでプログラムを実行することができます。
+      2018年現在、WebAssembly 1.0は4つの主要ブラウザでサポートされ、WebAssemblyに対応したプログラミング言語も増えてきました。
+      本セッションでは、Rustを使ったWebAssemblyの利用について、最新の動向や情報可視化研究における事例を混じえてご紹介します。
+  -
+    email: sakakibara@rdlabo.jp
+    title: Webデザインに本当に必要だったものを考える 2018年版
+    name: 榊原昌彦
+    team: 一般社団法人リレーションデザイン研究所
+    image: https://pbs.twimg.com/profile_images/894472371779682305/RjStTBFc_400x400.jpg
+    twitter: https://twitter.com/rdlabo
+    facebook: https://www.facebook.com/masa.sakakibara
+    url: https://www.rdlabo.jp/
+    body: |
+      「最高のWebデザイン」というと、何を思い浮かべますか？
+      「足すことも引くこともできない完璧なグラフィック」「クライアントが100%満足してGoサインをだしてくれるデザインプロセス」
+      「Webデザインで賞をとれるようなもの」、いろいろな現場でいろいろな意見があると思います。
+      本セッションでは、Webデザインを「Web」というプラットフォームから見直し、本当に求められているものは何かを考えていこうと思います。"
+  -
+    email:
+    title:
+    name:
+    team:
+    url:
+    body:
