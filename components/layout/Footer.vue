@@ -48,7 +48,7 @@
       min-height: 450px;
       max-height: 450px;
       overflow: hidden;
-      background: url("~/static/images/footer.svg");
+      background: url("~assets/images/footer.svg");
       background-size: contain;
       background-position: center bottom;
       background-repeat: no-repeat;
@@ -59,7 +59,7 @@
       content: "";
       width: 100%;
       height: 250px;
-      background: url("~/static/images/footer.svg");
+      background: url("~assets/images/footer.svg");
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
