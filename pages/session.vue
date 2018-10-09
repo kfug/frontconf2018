@@ -13,7 +13,8 @@
             フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております。
           </p>
         </div>
-        <div class="session-list" v-for="(session,key) in sessions" :key="key">
+        <div :id="session.name" class="session-list"
+             v-for="(session,key) in sessions" :key="key">
           <div class="session-item">
             <h2 class="session-title">{{session.title}}</h2>
             <span class="session-sub" v-if="session.subtitle">{{session.subtitle}}</span>
@@ -68,6 +69,7 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import VueScrollTo from "vue-scrollto"
 
 export default {
   components: {
@@ -76,6 +78,17 @@ export default {
   computed:{
     sessions(){
       return this.$store.state.speakers
+    }
+  },
+  mounted(){
+    const hash = location.hash
+    const target = document.getElementById(decodeURI(hash).substr(1))
+    console.log(target)
+    if(target){
+      VueScrollTo.scrollTo(target,500,{
+        offset: -80
+      })
+
     }
   }
 }
