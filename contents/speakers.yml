@@ -1,7 +1,6 @@
 # see https://docs.google.com/spreadsheets/d/1Tapqezc5rLGFjPJSecigfev6f0TCefRFYXynyyN4vhg/edit#gid=572764933
 speakers:
   -
-    email: onoue@likr-lab.com
     title: Rust+WebAssemblyで広がるWebの世界
     name: 尾上洋介
     team: 日本大学
@@ -15,7 +14,6 @@ speakers:
     profile: |
       日本大学 文理学部 情報科学科 助教、博士（工学）。大学での教育・研究の傍ら、趣味と実益を兼ねてWeb技術を追いかけています。ソフトウェアの高速化が好きです。
   -
-    email: sakakibara@rdlabo.jp
     title: Webデザインに本当に必要だったものを考える 2018年版
     name: 榊原昌彦
     team: 一般社団法人リレーションデザイン研究所
@@ -29,7 +27,6 @@ speakers:
       「Webデザインで賞をとれるようなもの」、いろいろな現場でいろいろな意見があると思います。
       本セッションでは、Webデザインを「Web」というプラットフォームから見直し、本当に求められているものは何かを考えていこうと思います。
   -
-    email: ixkaito@gmail.com
     title: タイポグラフィ・ベーシック
     name: カイト
     team: KITERETZ inc.
@@ -52,7 +49,6 @@ speakers:
       『世界一わかりやすいWordPress 導入とサイト制作の教科書』
       『著作権トラブル解決のバイブル! クリエイターのための権利の本』
   -
-    email: atsushi@moongift.jp
     title: 業務システムに使えるPWA
     name: 中津川篤司
     team: MOONGIFT（hifiveエバンジェリスト）
