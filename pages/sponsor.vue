@@ -15,30 +15,28 @@
 
           <div class="sponsor">
             <div class = "sponsor_platinum">
-              <div class="sponsor_large">
-              <img src="~/assets/images/sponsors/platinum/sp-p01.png">
-              <img src="~/assets/images/sponsors/platinum/sp-p01.png">
-            </div>
+              <img class="sponsor_large" src="~/assets/images/sponsors/platinum/sp-p01.png">
+              <img class="sponsor_large" src="~/assets/images/sponsors/platinum/sp-p01.png">
             </div>
             <div class = "sponsor_gold">
-              <div class="sponsor_medium">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              <img src="~/assets/images/sponsors/gold/sp-g01.png">
-              </div>
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
+              <img class="sponsor_medium" src="~/assets/images/sponsors/gold/sp-g01.png">
             </div>
             <div class = "sponsor_silver">
-              <div class="sponsor_small">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              <img src="~/assets/images/sponsors/silver/sp-s01.png">
-              </div>
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
+              <img class="sponsor_small" src="~/assets/images/sponsors/silver/sp-s01.png">
             </div>
           </div>
 
@@ -124,11 +122,15 @@ export default {
         width: 100%;
         margin: 0 5px 30px 5px;
         cursor: pointer;
-
+        display:inline-block;
         @include desktop() {
           max-width: 440px;
           margin: 0 15px 40px 15px;
         }
+      }
+
+      &_platinum{
+        margin-top:80px;
       }
 
       &_medium {
@@ -145,6 +147,9 @@ export default {
         }
       }
 
+      &_silver{
+        margin: 20px 0 30px 0;
+      }
       &_small {
         max-width: 100px;
         width: 100%;
