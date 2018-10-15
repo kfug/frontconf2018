@@ -12,18 +12,24 @@
 
           <div class="sponsor">
             <div class = "sponsor_platinum">
-              <div class="sponsor_large" v-for="(hoge,key) in [1,2]" :key="key">
-                <img src="~/assets/images/sponsors/platinum/sp-p01.png" alt="">
+              <div class="sponsor_large" v-for="(sponsor,key) in plutinum" :key="key">
+                <a :href="sponsor.url" target="_blank" rel="noopener">
+                  <img :src="sponsor.image" :alt="sponsor.title">
+                </a>
               </div>
             </div>
             <div class = "sponsor_gold">
-              <div class="sponsor_medium" v-for="(hoge,key) in [1,2,3,4,5,6,7,8,9]" :key="key">
-                <img src="~/assets/images/sponsors/gold/sp-g01.png" alt="">
+              <div class="sponsor_medium" v-for="(sponsor,key) in gold" :key="key">
+                <a :href="sponsor.url" target="_blank" rel="noopener">
+                  <img :src="sponsor.image" :alt="sponsor.title">
+                </a>
               </div>
             </div>
             <div class = "sponsor_silver">
-              <div class="sponsor_small" v-for="(hoge,key) in [1,2,3,4,5,6,7,8,9]" :key="key">
-                <img src="~/assets/images/sponsors/silver/sp-s01.png" alt="">
+              <div class="sponsor_small" v-for="(sponsor,key) in silver" :key="key">
+                <a :href="sponsor.url" target="_blank" rel="noopener">
+                  <img :src="sponsor.image" :alt="sponsor.title">
+                </a>
               </div>
             </div>
           </div>
@@ -42,9 +48,15 @@ export default {
     AppLogo
   },
   computed:{
-    sessions(){
-      return this.$store.state.speakers
-    }
+    plutinum(){
+      return this.$store.state.sponsors.plutinum
+    },
+    gold(){
+      return this.$store.state.sponsors.gold
+    },
+    silver(){
+      return this.$store.state.sponsors.silver
+    },
   },
   mounted(){
     const hash = location.hash
@@ -102,6 +114,7 @@ export default {
         margin: 0 1.5vw 3vw 1.5vw;
         @include desktop() {
           width: 45%;
+          margin: 0 20px 40px 20px;
         }
       }
 
@@ -110,6 +123,7 @@ export default {
         margin: 0 1vw 2vw 1vw;
         @include desktop() {
           width: 30%;
+          margin: 0 10px 20px 10px;
         }
       }
       &_small {
@@ -117,7 +131,7 @@ export default {
         margin: 0 1vw 2vw 1vw;
         @include desktop() {
           width: 23%;
-          margin: 0 0.5vw 1vw 0.5vw;
+          margin: 0 5px 10px 5px;
         }
       }
 

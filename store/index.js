@@ -8,12 +8,15 @@ export const state = () => {
     }),
     sponsors: {
       plutinum: sponsors.filter((sponsor)=>{
+        return false;
         return sponsor.rank == "plutinum"
       }),
       gold: sponsors.filter((sponsor)=>{
+        return true;
         return sponsor.rank == "gold"
       }),
       silver: sponsors.filter((sponsor)=>{
+        return false;
         return sponsor.rank == "silver"
       }),
     }

@@ -1,18 +1,18 @@
 # see https://docs.google.com/spreadsheets/d/1xQS9MY6hR-VLcVwsE0YCEI5OsRNsqTcN1_50kgHfGVw/edit#gid=384979937
 sponsors:
   -
-    title: Rust+WebAssemblyで広がるWebの世界
-    url: https://vdslab.jp/
-    image: /speakers/SP001.png
+    title: 株式会社インパス
+    url: https://impath.co.jp/
+    image: /sponsors/SP003.png
     rank: gold
   -
-    title: Rust+WebAssemblyで広がるWebの世界
-    url: https://vdslab.jp/
-    image: /speakers/SP001.png
+    title: 株式会社タンバリン
+    url: https://www.tam-bourine.co.jp/
+    image: /sponsors/SP002.png
     rank: plutinum
   -
-    title: Rust+WebAssemblyで広がるWebの世界
-    url: https://vdslab.jp/
-    image: /speakers/SP001.png
+    title: chatbox.inc
+    url: https://chatbox-inc.com
+    image: /sponsors/SP001.png
     rank: silver
 
