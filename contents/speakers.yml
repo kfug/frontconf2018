@@ -67,3 +67,57 @@ speakers:
           ニフクラ mobile backend、hifive 、CloudGarage エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。
           2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。
           2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。
+  -
+    title: 理想のデザインプロセスについて考える
+    subtitle: EC-CUBE 4の管理画面デザインで学んだデザインプロセスの面白さ・難しさ
+    name: 深沢幸治郎
+    team: 水交デザインオフィス
+    image: /speakers/SP005.jpg
+    twitter: https://twitter.com/witch_doktor
+    facebook: https://www.facebook.com/fukazawa.kojiro
+    url: https://suikoudesign.com/suikolog
+    body: |
+      1年間EC-CUBEというECプラットフォームの管理画面デザインに携わった中で成し遂げたかった理想と現実、
+      やったこととできなかったことを振り返りつつ、プロダクトをデザインするという仕事のあり方について考え、お話してみようと思います。
+  - title: Chrome Dev Summit Recap
+    subtitle: 11/12-13でサンフランシスコで行われたCDSからWeb最新情報を紹介します。
+    name: 宇都宮佑亮
+    team: Google
+    image: /speakers/SP006.jpg
+    twitter: https://twitter.com/uskay
+    url: https://blog.uskay.io/
+    body: |
+      Web大好き！Google シニア モバイル ソリューションズ コンサルタント。
+      日本およびAPACのProgressive Web AppsとAMPの布教活動をさせて頂いておりますが、
+      ただただトレンドに追いつくのに毎日必死です。
+  - title: デザイナ主導のプロトタイプ開発のススメ方
+    name: コンチ
+    image: /speakers/SP007.jpg
+    twitter: https://twitter.com/maki_saki
+    url: https://blog.cntlog.net
+    body: |
+      プロトタイプが日本でも広まり、徐々に認知が増えています。
+      Sketchやadobe XDをはじめプロトタイプを作るためのツールも充実しています。
+      しかしプロトタイプの必要性がわからなかったり、今までの開発フローと違いがわからないという方はいないでしょうか？
+
+      私も最初はプロトタイプの活用方法が曖昧でした。
+      今はプロトタイプを作る理由がちゃんとあります。
+
+      私がなぜプロトタイプを作るのか、そしてどう作るのか、その一部をお伝えします(*ゝω・*)
+    profile: |
+      サイト設計からUIデザイン、CSSコーディング、解析、SEO、マーケティング、ライティング一通りなんでもできます。
+      稼げるWebデザインをいつも考えて、なるべく働きたくないといつも思っています。
+      焼き肉と寿司が好きです。
+
+
+  - title:
+    subtitle:
+    name:
+    team:
+    image: /speakers/SP004.jpg
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    url:
+    body: |
+    profile: |
+

@@ -30,6 +30,9 @@ module.exports = {
   css:[
     "~/assets/scss/app.scss"
   ],
+  generate: {
+    fallback: true,
+  },
   /*
   ** Customize the progress bar color
   */
