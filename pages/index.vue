@@ -4,6 +4,7 @@
       <p-about></p-about>
       <p-session></p-session>
       <p-sponsor></p-sponsor>
+      <p-sponsorlist/>
     </main>
 </template>
 
@@ -12,13 +13,15 @@ import PHero from '~/components/top/Hero.vue'
 import PAbout from '~/components/top/About.vue'
 import PSession from '~/components/top/Session.vue'
 import PSponsor from '~/components/top/Sponsor.vue'
+import PSponsorlist from './sponsor.vue'
 
 export default {
   components: {
     PHero,
     PAbout,
     PSession,
-    PSponsor
+    PSponsor,
+    PSponsorlist
   }
 }
 </script>

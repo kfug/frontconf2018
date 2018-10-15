@@ -1,0 +1,18 @@
+# see https://docs.google.com/spreadsheets/d/1xQS9MY6hR-VLcVwsE0YCEI5OsRNsqTcN1_50kgHfGVw/edit#gid=384979937
+sponsors:
+  -
+    title: Rust+WebAssemblyで広がるWebの世界
+    url: https://vdslab.jp/
+    image: /speakers/SP001.png
+    rank: gold
+  -
+    title: Rust+WebAssemblyで広がるWebの世界
+    url: https://vdslab.jp/
+    image: /speakers/SP001.png
+    rank: plutinum
+  -
+    title: Rust+WebAssemblyで広がるWebの世界
+    url: https://vdslab.jp/
+    image: /speakers/SP001.png
+    rank: silver
+
