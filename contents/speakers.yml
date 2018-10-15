@@ -73,12 +73,17 @@ speakers:
     name: 深沢幸治郎
     team: 水交デザインオフィス
     image: /speakers/SP005.jpg
-    twitter: https://twitter.com/witch_doktor
+    twitter: https://twitter.com/kojirofukazawa
     facebook: https://www.facebook.com/fukazawa.kojiro
     url: https://suikoudesign.com/suikolog
     body: |
       1年間EC-CUBEというECプラットフォームの管理画面デザインに携わった中で成し遂げたかった理想と現実、
       やったこととできなかったことを振り返りつつ、プロダクトをデザインするという仕事のあり方について考え、お話してみようと思います。
+    profile: |
+      大阪を中心に活動するウェブデザイナー。
+      2009年からフリーランスとして多くのウェブサイト・モバイルアプリ・管理画面UIの設計・デザイン・CMS実装に携わる。
+      2010年に日本最初期のコワーキングスペース「JUSO Coworking」を開業、様々なコミュニティ活動やイベントの支援も行っている。
+      共著書に『世界一わかりやすいWordPress 導入とサイト制作の教科書』。
   - title: Chrome Dev Summit Recap
     subtitle: 11/12-13でサンフランシスコで行われたCDSからWeb最新情報を紹介します。
     name: 宇都宮佑亮
