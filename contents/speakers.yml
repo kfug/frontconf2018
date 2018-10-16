@@ -113,8 +113,37 @@ speakers:
       サイト設計からUIデザイン、CSSコーディング、解析、SEO、マーケティング、ライティング一通りなんでもできます。
       稼げるWebデザインをいつも考えて、なるべく働きたくないといつも思っています。
       焼き肉と寿司が好きです。
+  - title: Web Musicでは何ができるのか
+    subtitle:
+    name: okunokentaro
+    team: Crescware
+    image: /speakers/SP008.jpg
+    twitter: https://twitter.com/okunokentaro
+    url: https://github.com/okunokentaro
+    body: |
+      ついにW3C Candidate RecommendationとなったWeb Audio APIの仕様。これだけでなく、現代のブラウザには音を扱うための様々なAPIが存在します。これらを駆使すれば何ができるのか、そして将来どのようなことが可能になりそうか。Web Musicの今をお伝えします。
+    profile: |
+          クレスウェア代表。音楽制作業界、フロントエンド・エンジニアを経て独立。Webと音楽の融合を掲げて新規事業を開発中。TypeScriptを用いた大規模なWebアプリケーション開発案件に複数携わり、DDDやCQRSといった設計手法を得意とする。ng-kyotoやAngular日本ユーザー会のオーガナイザとして、講演や執筆なども多数。
+  - title: WEBアプリを作らない選択肢。
+    subtitle: 〜 初心者向けGAS講座 〜
+    name: Wakai Shinichiro
+    team: 株式会社ハマヤ クリエーション事業部 部長
+    image: /speakers/SP009.jpg
+    twitter: https://twitter.com/se_kamo
+    facebook: https://www.facebook.com/profile.php?id=100003852104215
+    url:
+    body: |
+      詳しくは、（いちから）WEBアプリを作らない選択肢です。
 
+      WEBアプリを開発しようとする前に1度立ち止まって考えてみてください。
 
+      やろうとしていることが、GAS（Google Apps Script）でてきないかどうか。
+
+      GASならほぼ環境構築なしに
+      また簡単に開発ができます。
+
+      プログラム初心者でも扱えるGASを私なりに噛み砕き、
+      明日から使えるよう分かりやすく説明していきます。
   - title:
     subtitle:
     name:
