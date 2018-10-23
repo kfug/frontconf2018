@@ -1,5 +1,5 @@
 var {speakers} = require("../contents/speakers.yml");
-var {sponsors} = require("../contents/sponsors.yml");
+var {sponsors,media} = require("../contents/sponsors.yml");
 
 export const state = () => {
   return {
@@ -7,6 +7,9 @@ export const state = () => {
       return speaker.title
     }),
     sponsors: {
+      media: media.filter((sponsor)=>{
+        return true
+      }),
       plutinum: sponsors.filter((sponsor)=>{
         return false;
         return sponsor.rank == "plutinum"

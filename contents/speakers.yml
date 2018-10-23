@@ -95,9 +95,9 @@ speakers:
     twitter: https://twitter.com/uskay
     url: https://blog.uskay.io/
     body: |
-      Web大好き！Google シニア モバイル ソリューションズ コンサルタント。
-      日本およびAPACのProgressive Web AppsとAMPの布教活動をさせて頂いておりますが、
-      ただただトレンドに追いつくのに毎日必死です。
+      今年もChrome Dev Summitが2018年に開催されます。ちょうどFRONTEND CONFERENCE 2018の、なんと一週間前に行われるこのカンファレンスで出た話題を、まとめてタイムリーにお届けまします。ChromeおよびOpen Webがどの方向に向かおうとしているのかを是非ともチェックしてください。
+    profile: |
+      Web大好き！Google シニア モバイル ソリューションズ コンサルタント。日本およびAPACのProgressive Web AppsとAMPの布教活動をさせて頂いておりますが、ただただトレンドに追いつくのに毎日必死です。
   - title: デザイナ主導のプロトタイプ開発のススメ方
     name: コンチ
     image: /speakers/SP007.jpg

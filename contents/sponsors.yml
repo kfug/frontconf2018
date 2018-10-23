@@ -11,11 +11,6 @@ sponsors:
     image: /sponsors/SP002.png
     rank: plutinum
   -
-    title: chatbox.inc
-    url: https://chatbox-inc.com
-    image: /sponsors/SP001.png
-    rank: silver
-  -
     title: rabify CDN
     url: https://www.rabify.me/
     image: /sponsors/SP004.png
@@ -25,4 +20,10 @@ sponsors:
     url: https://www.creativevillage.ne.jp/
     image: /sponsors/SP005.png
     rank: silver
+media:
+  - title: chatbox.inc
+    url: https://chatbox-inc.com
+    image: /sponsors/SP001.png
+    rank: silver
+
 

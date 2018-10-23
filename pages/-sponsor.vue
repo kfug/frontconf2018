@@ -33,8 +33,19 @@
               </div>
             </div>
           </div>
+          <h2 class="c-title">MEDIA・SUPPORT</h2>
+
+          <div class="sponsor">
+            <div class = "sponsor_gold">
+              <div class="sponsor_medium" v-for="(sponsor,key) in media" :key="key">
+                <a :href="sponsor.url" target="_blank" rel="noopener">
+                  <img :src="sponsor.image" :alt="sponsor.title">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
   </section>
 </template>
@@ -48,6 +59,9 @@ export default {
     AppLogo
   },
   computed:{
+    media(){
+      return this.$store.state.sponsors.media
+    },
     plutinum(){
       return this.$store.state.sponsors.plutinum
     },
