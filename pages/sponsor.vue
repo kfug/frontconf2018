@@ -14,15 +14,15 @@
             FRONTEND CONFERENCE 2018へご協賛いただいた個人・企業様のご紹介です。
           </p>
         </div>
-        <div :id="sponsors.title" class="sponsor-list"
-             v-for="(sponsors,key) in sessions" :key="key">
+        <div class="sponsor-list">
           <div class="sponsor-item">
-            <h2 class="sponsor-title">株式会社chatbox</h2>
-            <span class="sponsor-sub">株式会社chatboxはWebのこれからを語り合う会社です</span>
+            <h2 class="sponsor-title">{{sponsors.title}}</h2>
+            <span class="sponsor-sub">{{sponsors.sub}}</span>
             <div class="sponsor-logoWrap">
               <div class="sponsor-logo"></div>
             </div>
-            <p class="sponsor-about">株式会社 chatbox は大阪の小さなWeb制作会社です。 様々なWeb制作の現場で、「Webのこれからを語り合う」をテーマにWebの可能性を追求し続けています。 Web制作という「作る」業務だけでなく、Webの技術を「伝える」「語り合う」会社として、 制作現場での技術指導や、イベント・セミナーなどの交流活動にも積極的に取り組んでいます。 身の回りにありふれたWebだからこそ、そこにしか無い、そこだけのWebの形を。 現場と、お客様と、ユーザーと、一緒に考えていくのがchatboxのWeb制作のあり方です。
+            <p class="sponsor-about">
+              {{sponsors.detail}}
             </p>
             <div class="sponsor-link">
               <a class="sponsor-linkBtn" href="">
@@ -31,15 +31,6 @@
             </div>
           </div>
         </div>
-        <!--<div :id="sponsors.title" class="sponsor-list"-->
-             <!--v-for="(sponsors,key) in sessions" :key="key">-->
-          <!--<div class="sponsor-item">-->
-            <!--<h2 class="sponsor-title">{{sponsors.title}}</h2>-->
-            <!--<span class="sponsor-sub">{{sponsors.sub}}</span>-->
-            <!--<div class="sponsor-logo"></div>-->
-            <!--<p class="sponsor-about">{{sponsors.detail}}</p>-->
-          <!--</div>-->
-        <!--</div>-->
         <router-link to="/" class="c-btn">
           <span>TOPに戻る</span>
         </router-link>
@@ -55,11 +46,11 @@ import VueScrollTo from "vue-scrollto"
 export default {
   data () {
     return {
-      sponsors: [
-        {title: "株式会社chatbox"},
-        {sub: "株式会社chatboxはWebのこれからを語り合う会社です"},
-        {detail: "ほげほげ"},
-      ]
+      sponsors: {
+        title: "株式会社chatbox",
+        sub: "株式会社chatboxはWebのこれからを語り合う会社です",
+        detail: "株式会社 chatbox は大阪の小さなWeb制作会社です。 様々なWeb制作の現場で、「Webのこれからを語り合う」をテーマにWebの可能性を追求し続けています。 Web制作という「作る」業務だけでなく、Webの技術を「伝える」「語り合う」会社として、 制作現場での技術指導や、イベント・セミナーなどの交流活動にも積極的に取り組んでいます。 身の回りにありふれたWebだからこそ、そこにしか無い、そこだけのWebの形を。 現場と、お客様と、ユーザーと、一緒に考えていくのがchatboxのWeb制作のあり方です。"
+      }
     }
   },
   components: {
