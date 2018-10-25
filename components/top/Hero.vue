@@ -9,6 +9,12 @@
         2018.<span>11</span>.<span>24</span>.Sat&nbsp;
         大阪 グランフロント
       </p>
+      <div class="pickUp">
+        <p>一般チケット販売中！</p>
+        <a class="btn" href="" target="_blank">
+          <span>チケット購入</span>
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -54,6 +60,7 @@
     }
 
     .info {
+      margin-bottom: 30px;
       font-size: 1.6rem;
       font-feature-settings : "palt";
       letter-spacing: 2px;
@@ -69,6 +76,17 @@
         }
 
       }
+    }
+    .pickUp {
+      border-top: 1px dotted white;
+      padding-top: 2em;
+      p {
+        font-size: 1.6em;
+        font-weight: bold;
+      }
+    }
+    .btn {
+      @include c-btn--white;
     }
   }
 </style>
