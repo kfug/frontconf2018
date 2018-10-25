@@ -25,7 +25,7 @@
               {{sponsors.detail}}
             </p>
             <div class="sponsor-link">
-              <a class="sponsor-linkBtn" href="">
+              <a class="sponsor-linkBtn" href="" target="_blank">
                 <span>広告・企業ページをみる</span>
               </a>
             </div>
