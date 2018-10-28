@@ -14,6 +14,10 @@
         <a class="btn" href="https://passmarket.yahoo.co.jp/event/show/detail/0152vyzwiiv8.html" target="_blank">
           <span>チケット購入</span>
         </a>
+        <p>当日スタッフも募集中！</p>
+        <a class="btn" href="https://docs.google.com/forms/d/1kZ59HzuetatDfjHNbset7BI7ANRqJHoJDzVaqdvbVAM" target="_blank">
+          <span>スタッフに応募</span>
+        </a>
       </div>
     </div>
   </section>
