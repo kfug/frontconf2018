@@ -121,6 +121,7 @@ export default {
       &_medium,
       &_small{
         cursor: pointer;
+        background: white;
       }
 
       &_large {
