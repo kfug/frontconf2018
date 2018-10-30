@@ -59,6 +59,14 @@
             </div>
           </div>
         </div>
+
+        <br>
+        <br>
+        <div class="more">
+          AND MORE ...
+        </div>
+        <br>
+        <br>
         <router-link to="/" class="c-btn">
           <span>TOPに戻る</span>
         </router-link>
@@ -267,6 +275,10 @@ export default {
     .speaker-about {
       margin-bottom: 10px;
       font-size: 1.5rem;
+    }
+
+    .more{
+      @include c-title;
     }
 
   }
