@@ -1,0 +1,29 @@
+posts:
+  page:
+    title: "AFTER PARTY"
+    subtitle: "FRONTEND CONFERENCE 2018 本編終了後は 懇親会です！"
+  contents:
+    title: FRONTEND CONFERENCE 2018 懇親会の案内
+    subtitle: |
+      FRONTEND CONFERENCE 2018 本編終了後は、会場内で懇親会を開催します！
+      セッションのスピーカーやスポンサー、コミュニティの人たちと、お酒や食事を楽しみながら交流できるチャンス！
+    image: "/posts/party.jpg"
+    body: |
+      FRONTEND CONFERENCE 2018 懇親会は、イベント本編と同じくグランフロント会場内で開催します。
+      同会場内での開催で移動の手間も無いため、イベントの熱をそのままに、来場者と交流を行うことができます。
+
+      懇親会では、お酒やソフトドリンク、食事のほか、
+      懇親会 LT や イベントノベルティが当たるじゃんけん大会などを開催！
+
+      気になるセッションのスピーカーや、スポンサー、コミュニティの人たちともつながるチャンスをお見逃しなく！
+
+      ※ 懇親会の参加には 別途懇親会チケットの購入が必要です。
+
+      ※ 未成年者の飲酒防止の為、受付時に年齢確認を実施させていただくケースがございます。
+
+    link_label: チケットを購入！
+    url: https://passmarket.yahoo.co.jp/event/show/detail/0152vyzwiiv8.html
+  head:
+    title: FRONTEND CONFERENCE 2018 懇親会の案内
+    description: FRONTEND CONFERENCE 2018 本編終了後は、会場内で懇親会を開催！
+    image: "/posts/party.jpg"

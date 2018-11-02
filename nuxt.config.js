@@ -24,6 +24,7 @@ module.exports = {
     fallback: true,
     routes: [
       '/posts/yumemi',
+      '/posts/after_party',
     ]
   },
   /*

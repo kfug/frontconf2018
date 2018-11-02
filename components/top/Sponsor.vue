@@ -6,18 +6,21 @@
       <img class="line" src="~/static/images/parts_line.svg">
       <div class="c-block">
         <h3 class="title">
-          SPONSOR
+          AFTER PARTY
         </h3>
         <p class="description">
-          FRONTEND CONFERENCE 2018 では
-          スポンサー企業様のご協賛をお待ちしております！<br>
+          FRONTEND CONFERENCE 2018 本編終了後は、会場内で懇親会を開催！
           <br>
-          求人やサービス紹介、などスポンサー様の露出ご要望等に添えるスポンサーメニューをご用意しておりますので、
-          ご興味の企業様は、下記のフォームよりご連絡の上、資料請求のお手続きをよろしくお願いいたします。
+          <br>
+          お酒やソフトドリンク、食べ物を片手に、気になるセッションのスピーカーや
+          スポンサー、コミュニティの人たちとつながるチャンス！
+          <br>
+          <br>
+          懇親会LT や じゃんけん大会も開催の懇親会をお見逃しなく！
         </p>
-        <a href="https://docs.google.com/forms/d/1NDzn_9PYl28Ew86rrAZ8KryfUc7V5VEYhnJNT4SekPY/" target="_blank" class="c-btn">
-          <span>スポンサー申し込み</span>
-        </a>
+        <router-link to="/posts/after_party" class="c-btn">
+          <span>懇親会 詳細</span>
+        </router-link>
       </div>
     </div>
   </section>
