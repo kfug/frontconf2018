@@ -18,6 +18,14 @@
                 </a>
               </div>
             </div>
+            <ul class="sponsor_link">
+              <li class="sponsor_link-item">
+                <router-link to="/posts/yumemi">
+                  スポンサー紹介 株式会社ゆめみ
+                </router-link>
+              </li>
+            </ul>
+            <br>
             <div class = "sponsor_gold">
               <div class="sponsor_medium" v-for="(sponsor,key) in gold" :key="key">
                 <a :href="sponsor.url" target="_blank" rel="noopener">
@@ -149,7 +157,18 @@ export default {
           margin: 0 5px 10px 5px;
         }
       }
+    }
 
+    .sponsor{
+      &_link {
+        font-size: 2em;
+        list-style: none;
+        padding: 0;
+      }
+      &_link-item a{
+        color: white;
+        font-size: 1.5em;
+      }
     }
     img{
       max-width: 100%;
