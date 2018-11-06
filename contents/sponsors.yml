@@ -1,39 +1,50 @@
 # see https://docs.google.com/spreadsheets/d/1xQS9MY6hR-VLcVwsE0YCEI5OsRNsqTcN1_50kgHfGVw/edit#gid=384979937
 sponsors:
-  -
-    title: 株式会社インパス
-    url: https://impath.co.jp/
-    image: /sponsors/SP002.png
-    rank: gold
-  -
-    title: 株式会社タンバリン
-    url: https://www.tam-bourine.co.jp/
-    image: /sponsors/SP003.png
-    rank: silver
-  -
-    title: rabify CDN
-    url: https://www.rabify.me/
-    image: /sponsors/SP004.png
-    rank: silver
-  -
-    title: 株式会社クリーク・アンド・リバー社
-    url: https://www.creativevillage.ne.jp/
-    image: /sponsors/SP005.png
-    rank: silver
-  -
-    title: Lec Cafe
-    url: https://leccafe.connpass.com/
-    image: /sponsors/SP006.png
-    rank: gold
-  -
-    title: 株式会社ゆめみ
-    url: https://www.yumemi.co.jp/ja
-    image: /sponsors/SP007.png
-    rank: plutinum
+-
+  title: 株式会社インパス
+  url: https://impath.co.jp/
+  image: /sponsors/sp-g01.png
+  rank: gold
+-
+  title: rabify CDN
+  url: https://www.rabify.me/
+  image: /sponsors/sp-g02.png
+  rank: gold
+-
+  title: Lec Cafe
+  url: https://leccafe.connpass.com/
+  image: /sponsors/sp-g03.png
+  rank: gold
+-
+  title: 株式会社ゆめみ
+  url: https://www.yumemi.co.jp/ja
+  image: /sponsors/sp-p01.png
+  rank: plutinum
+-
+  title: TypeSquare
+  url: https://typesquare.com/
+  image: /sponsors/sp-p02.png
+  rank: plutinum
+-
+  title: 株式会社タンバリン
+  url: https://www.tam-bourine.co.jp/
+  image: /sponsors/sp-s01.png
+  rank: silver
+-
+  title: 株式会社クリーク・アンド・リバー社
+  url: https://www.creativevillage.ne.jp/
+  image: /sponsors/sp-s02.png
+  rank: silver
+-
+  title: a-blog cms
+  url: https://www.a-blogcms.jp
+  image: /sponsors/sp-s03.png
+  rank: silver
 media:
-  - title: chatbox.inc
-    url: https://chatbox-inc.com
-    image: /sponsors/SP001.png
-    rank: silver
+-
+  title: chatbox.inc
+  url: https://chatbox-inc.com
+  image: /sponsors/sp-m01.png
+  rank: silver
 
 
