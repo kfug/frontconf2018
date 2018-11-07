@@ -19,18 +19,16 @@
             </p>
           </div>
         </div>
-        <div class="container-d">
+        <div class="container-c">
           <i class="material-icons warning-icon">warning</i>
           <p>タワーCへはグランフロント北館１階からしかアクセスできません</p>
         </div>
-        <div class="container-c">
-          <router-link to="/session" class="c-btn1">
-            <span>GoogleMapを開く</span>
-          </router-link>
-          <router-link to="/session" class="c-btn2">
-            <span>タワーCへの館内ルート</span>
-          </router-link>
-        </div>
+        <router-link to="/session" class="c-btn1">
+          <span>GoogleMapを開く</span>
+        </router-link>
+        <router-link to="/session" class="c-btn2">
+          <span>タワーCへの館内ルート</span>
+        </router-link>
       </div>
     </div>
   </section>
@@ -51,8 +49,8 @@
     }
 
     img {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       margin-right: 50px;
       margin-bottom: 10px;
     }
@@ -67,11 +65,6 @@
     }
 
     .container-c {
-      display: inline-flex;
-      flex-direction: column;
-    }
-
-    .container-d {
       display: inline-flex;
       margin-bottom: 20px;
     }
@@ -107,7 +100,12 @@
       }
     }
 
-    @include c-block--outline;
+    @include c-block--outline
+
+    .c-block {
+      padding: 100px 60px;
+      padding-left: 100px;
+    }
   }
 </style>
 
