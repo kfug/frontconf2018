@@ -21,9 +21,6 @@
         <router-link to="/posts/after_party" class="c-btn">
           <span>懇親会 詳細</span>
         </router-link>
-        <router-link to="/posts/after_party" class="c-btn">
-          <span>懇親会 詳細</span>
-        </router-link>
       </div>
     </div>
   </section>
