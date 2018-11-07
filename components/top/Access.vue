@@ -7,12 +7,30 @@
         <h3 class="title">
           ACCESS
         </h3>
-        <p class="description">
-          マークアップよろしくです！
-        </p>
-        <router-link to="/session" class="c-btn">
-          <span>セッション一覧を見る</span>
-        </router-link>
+        <div class="container-a">
+          <img src="~/assets/images/top_access.png">
+          <div class="container-b">
+            <p class="description">
+              グラントフロント大阪 北館 タワーC８階
+            </p>
+            <p class="description">
+              〒530-0011 大阪市北区大深町3-1<br>
+              グランフロント大阪 北区 タワーC８階
+            </p>
+          </div>
+        </div>
+        <div class="container-d">
+          <i class="material-icons warning-icon">warning</i>
+          <p>タワーCへはグランフロント北館１階からしかアクセスできません</p>
+        </div>
+        <div class="container-c">
+          <router-link to="/session" class="c-btn1">
+            <span>GoogleMapを開く</span>
+          </router-link>
+          <router-link to="/session" class="c-btn2">
+            <span>タワーCへの館内ルート</span>
+          </router-link>
+        </div>
       </div>
     </div>
   </section>
@@ -24,8 +42,43 @@
   .p-access {
     @include p-padding;
 
-    .c-btn {
+    .c-btn1 {
       @include c-btn--white;
+    }
+
+    .c-btn2 {
+      @include c-btn--outline;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-right: 50px;
+      margin-bottom: 10px;
+    }
+
+    .container-a {
+      display: flex;
+    }
+
+    .container-b {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container-c {
+      display: inline-flex;
+      flex-direction: column;
+    }
+
+    .container-d {
+      display: inline-flex;
+      margin-bottom: 20px;
+    }
+
+    .warning-icon {
+      padding: 5px;
+      margin-left: 10px;
     }
 
     .c-container {
