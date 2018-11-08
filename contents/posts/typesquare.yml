@@ -1,0 +1,30 @@
+posts:
+  page:
+    title: "SPONSOR"
+    subtitle: "FRONTEND CONFERENCE 2018へご協賛いただいた個人・企業様のご紹介です。"
+  contents:
+    title: Webフォントサービス「TypeSquare」
+    subtitle: TypeSquareはさまざまな書体をWebフォントとして利用できるモリサワのサービスです。
+    image: "/posts/typesquare.png"
+    body: |
+      Webフォントはインターネットを介してフォントを配信する技術で、閲覧する環境にインストールされていないフォントでもブラウザ上で表示することができます。
+
+      多彩な書体デザインを利用できるだけでなく、自動翻訳・音声読み上げといった機能とも連携しやすくなり、伝えたい情報を的確に届けられるようになります。
+
+      Webだけにとどまらず、TypeSquareAPIを活用して様々なサービスやアプリケーションにフォントを実装することも可能になっております。
+
+      TypeSquareサイト
+      https://typesquare.com/
+
+      TypeSquareスペシャルサイト
+      http://typesquare.com/special
+
+      WordPressプラグイン
+      https://ja.wordpress.org/plugins/ts-webfonts-for-standard-plan/
+
+    link_label: TypeSquareサイト
+    url: https://typesquare.com/
+  head:
+    title: Webフォントサービス「TypeSquare」
+    description: TypeSquareはさまざまな書体をWebフォントとして利用できるモリサワのサービスです。
+    image: "/posts/typesquare.png"

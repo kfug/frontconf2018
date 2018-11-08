@@ -14,6 +14,12 @@
         <a class="btn" href="https://passmarket.yahoo.co.jp/event/show/detail/0152vyzwiiv8.html" target="_blank">
           <span>チケット購入</span>
         </a>
+        <br>
+        <br>
+        <p style="font-weight: normal">FRONTEND CONFERENCE 2018 をもっと楽しむ！ <br>アンカンファレンスや 懇親会LT のお知らせ。</p>
+        <router-link class="btn" to="/posts/unconference" >
+          <span>イベント企画へ</span>
+        </router-link>
       </div>
     </div>
   </section>

@@ -1,0 +1,44 @@
+posts:
+  page:
+    title: "FRONTEND UN CONFERENCE"
+    subtitle: "みんなが主役！ FRONTEND CONFERENCE 2018 の楽しみ方！"
+  contents:
+    title: FRONTEND CONFERENCE 2018 で話そう！
+    subtitle: |
+      セッションだけじゃない FRONTEND CONFERENCE 2018 の楽しみ方！
+      ブースやアンカンファレンスなどの企画が盛り沢山です！
+    image: "/ogp.jpg"
+    body: |
+      ## セッションだけじゃない！ FRONTEND CONFERENCE の楽しみ方
+
+      FRONTEND CONFERENCE 2018 では、セッション本編の他にブースフロアを用意し、様々な企画を開催します。
+
+      スポンサーやコミュニティーによるブース出展では、サービスやイベントの話がナマで聞けるチャンス！
+      気になる企業やコミュニティのナカの人とのつながりや、ノベルティをGETしたりなど、
+      楽しめる企画が盛り沢山です！
+
+      またブースフロアでは、アンカンファレンスも開催され、
+      当日募集の「ゲリラセッション」で、様々な人からの「聞きたい・話したい」に答えます。
+
+      通常のセッションよりもより距離感の近いラフなスタイルのトークで、
+      気になる「ここだけの話」がきっと見つかるはず！
+
+      懇親会では LT も開催！
+
+      パーティー形式で食べ物や飲み物を片手に、
+      フランクな形での LT 大会を開催します。
+
+      LT 登壇者には 豪華ノベルティの進呈も！
+
+      懇親会 LT の募集は当日会場内ブースフロアのホワイトボードにて行います。
+
+      ※ 懇親会の参加には 別途懇親会チケットの購入が必要です。
+
+      ※ 未成年者の飲酒防止の為、受付時に年齢確認を実施させていただくケースがございます。
+
+    link_label: チケットを購入！
+    url: https://passmarket.yahoo.co.jp/event/show/detail/0152vyzwiiv8.html
+  head:
+    title: FRONTEND CONFERENCE 2018 で話そう！
+    description: セッションだけじゃない！ FRONTEND CONFERENCE の楽しみ方を紹介
+    image: "/ogp.jpg"

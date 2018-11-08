@@ -24,6 +24,11 @@
                   スポンサー紹介 株式会社ゆめみ
                 </router-link>
               </li>
+              <li class="sponsor_link-item">
+                <router-link to="/posts/typesquare">
+                  スポンサー紹介 TypeSquare
+                </router-link>
+              </li>
             </ul>
             <br>
             <div class = "sponsor_gold">
@@ -33,6 +38,13 @@
                 </a>
               </div>
             </div>
+            <ul class="sponsor_link">
+              <li class="sponsor_link-item">
+                <router-link to="/posts/leccafe">
+                  スポンサー紹介 Lec Cafe
+                </router-link>
+              </li>
+            </ul>
             <div class = "sponsor_silver">
               <div class="sponsor_small" v-for="(sponsor,key) in silver" :key="key">
                 <a :href="sponsor.url" target="_blank" rel="noopener">
