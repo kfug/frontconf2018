@@ -20,7 +20,7 @@
             <div class="sponsor-logoWrap">
               <div class="sponsor-logo" :style="{backgroundImage:`url('${contents.image}')`}"></div>
             </div>
-            <p class="sponsor-about" v-html="md(contents.body)"/>
+            <div class="sponsor-about" v-html="md(contents.body)"/>
             <div class="sponsor-link">
               <a class="sponsor-linkBtn" :href="contents.url" target="_blank">
                 <span>{{contents.link_label}}</span>
