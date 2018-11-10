@@ -60,13 +60,6 @@
           </div>
         </div>
 
-        <br>
-        <br>
-        <div class="more">
-          AND MORE ...
-        </div>
-        <br>
-        <br>
         <router-link to="/" class="c-btn">
           <span>TOPに戻る</span>
         </router-link>
