@@ -130,12 +130,19 @@ export default {
         justify-content: center;
         flex-wrap: wrap;
       }
+      &_gold {
+        @include desktop() {
+          width: 600px;
+          margin: 0 auto;
+        }
+      }
       &_platinum{
         margin-top:80px;
       }
       &_silver{
         margin: 20px 0 30px 0;
       }
+
 
       &_large,
       &_medium,
@@ -157,7 +164,7 @@ export default {
         width: 45%;
         margin: 0 1vw 2vw 1vw;
         @include desktop() {
-          width: 30%;
+          width: 40%;
           margin: 0 10px 20px 10px;
         }
       }
