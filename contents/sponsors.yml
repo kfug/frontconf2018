@@ -1,29 +1,29 @@
 # see https://docs.google.com/spreadsheets/d/1xQS9MY6hR-VLcVwsE0YCEI5OsRNsqTcN1_50kgHfGVw/edit#gid=384979937
 sponsors:
 -
+  title: TypeSquare
+  url: https://typesquare.com/
+  image: /sponsors/sp-g01.png
+  rank: gold
+-
   title: 株式会社インパス
   url: https://impath.co.jp/
-  image: /sponsors/sp-g01.png
+  image: /sponsors/sp-g02.png
   rank: gold
 -
   title: rabify CDN
   url: https://www.rabify.me/
-  image: /sponsors/sp-g02.png
+  image: /sponsors/sp-g03.png
   rank: gold
 -
   title: Lec Cafe
   url: https://leccafe.connpass.com/
-  image: /sponsors/sp-g03.png
+  image: /sponsors/sp-g04.png
   rank: gold
 -
   title: 株式会社ゆめみ
   url: https://www.yumemi.co.jp/ja
   image: /sponsors/sp-p01.png
-  rank: plutinum
--
-  title: TypeSquare
-  url: https://typesquare.com/
-  image: /sponsors/sp-p02.png
   rank: plutinum
 -
   title: 株式会社タンバリン
