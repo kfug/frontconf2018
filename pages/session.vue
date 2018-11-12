@@ -16,7 +16,10 @@
         <div :id="session.name" class="session-list"
              v-for="(session,key) in sessions" :key="key">
           <div class="session-item">
-            <h2 class="session-title">{{session.title}}</h2>
+            <h2 class="session-title">
+              <a :href="`#${session.name}`" class="session-speaker-link"><i class="fas fa-link"></i></a>
+              {{session.title}}
+            </h2>
             <span class="session-sub" v-if="session.subtitle">{{session.subtitle}}</span>
             <p class="session-about" v-html="session.body"></p>
             <hr>
@@ -166,6 +169,11 @@ export default {
         padding: 40px 70px 50px;
       }
 
+    }
+    .session-speaker-link{
+      color:gray;
+      margin-right:3px;
+      vertical-align: text-top;
     }
     .session-title {
       margin-bottom: 1em;
