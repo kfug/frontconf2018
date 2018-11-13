@@ -7,10 +7,10 @@
         <h3 class="title">
           ACCESS
         </h3>
-        <div class="container-a">
+        <div class="access-box">
           <img src="~/assets/images/top_access.png">
-          <div class="container-b">
-            <p class="description">
+          <div class="access-discription">
+            <p class="description towor-name">
               グラントフロント大阪 北館 タワーC８階
             </p>
             <p class="description">
@@ -19,9 +19,9 @@
             </p>
           </div>
         </div>
-        <div class="container-c">
+        <div class="attention">
           <i class="material-icons warning-icon">warning</i>
-          <p>タワーCへはグランフロント北館１階からしかアクセスできません</p>
+          <span>タワーCへはグランフロント北館１階からしかアクセスできません</span>
         </div>
         <router-link to="/session" class="c-btn1">
           <span>GoogleMapを開く</span>
@@ -39,13 +39,28 @@
 
   .p-access {
     @include p-padding;
+    p,span {
+      font-size: 1.4rem;
+      @include desktop {
+        font-size: 1.6rem;
+      }
+    }
+
+    i {
+      font-size: 1.6rem;
+      @include desktop {
+        font-size: 2.4rem;
+      }
+    }
 
     .c-btn1 {
       @include c-btn--white;
+      margin: 0 1rem;
     }
 
     .c-btn2 {
       @include c-btn--outline;
+      margin: 0 1rem;
     }
 
     img {
@@ -55,23 +70,23 @@
       margin-bottom: 10px;
     }
 
-    .container-a {
+    .access-box {
       display: flex;
+      flex-wrap: wrap;
     }
 
-    .container-b {
+    .access-discription {
       display: flex;
       flex-direction: column;
     }
 
-    .container-c {
+    .attention {
       display: inline-flex;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .warning-icon {
       padding: 5px;
-      margin-left: 10px;
     }
 
     .c-container {
@@ -103,8 +118,14 @@
     @include c-block--outline
 
     .c-block {
-      padding: 100px 60px;
-      padding-left: 100px;
+      padding: 100px 25px;
+      padding-left: 80px;
+      .title {
+        margin: 10px 0;
+      }
+      .description {
+        margin: 0 0 10px 0;
+      }
     }
   }
 </style>
