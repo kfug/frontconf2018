@@ -6,9 +6,48 @@
           <h2 class="c-title">
             STAFF
           </h2>
-          <p class="description">
-            仮テキスト
-          </p>
+          <div class="grid">
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+            <div class="staff">
+              <img class="staff-img" src="">
+              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -39,6 +78,22 @@
         margin: 0 auto;
         max-width: 680px;
       }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        @include desktop {
+          grid-template-columns: repeat(7, 1fr);
+        }
+
+        .staff {
+          width: 100px;
+          height: 175px;
+          margin-bottom: 20px;
+        }
+      }
+
+
     }
 
   }
