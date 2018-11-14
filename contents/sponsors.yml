@@ -40,11 +40,17 @@ sponsors:
   url: https://www.a-blogcms.jp
   image: /sponsors/sp-s03.png
   rank: silver
+-
+  title: bellFace
+  url: https://careers.bell-face.com/
+  image: /sponsors/sp-s04.png
+  rank: silver
 media:
 -
   title: chatbox.inc
   url: https://chatbox-inc.com
   image: /sponsors/sp-m01.png
   rank: silver
+
 
 
