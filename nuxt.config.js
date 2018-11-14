@@ -24,7 +24,10 @@ module.exports = {
     fallback: true,
     routes: [
       '/posts/yumemi',
+      '/posts/typesquare',
+      '/posts/impath',
       '/posts/after_party',
+      '/posts/unconference',
     ]
   },
   /*

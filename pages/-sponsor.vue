@@ -35,6 +35,11 @@
             </div>
             <ul class="sponsor_link">
               <li class="sponsor_link-item">
+                <router-link to="/posts/impath">
+                  スポンサー紹介 株式会社インパス
+                </router-link>
+              </li>
+              <li class="sponsor_link-item">
                 <router-link to="/posts/typesquare">
                   スポンサー紹介 TypeSquare
                 </router-link>
