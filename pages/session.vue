@@ -66,6 +66,12 @@
         <router-link to="/" class="c-btn">
           <span>TOPに戻る</span>
         </router-link>
+
+        <br><br><br><br>
+        <p>
+          登壇者体調不良により、一部掲載していた内容と予定が変更となっております。<br>
+          ご了承のほどよろしくお願いいたします。
+        </p>
       </div>
     </div>
   </section>
