@@ -23,12 +23,12 @@
           <i class="material-icons warning-icon">warning</i>
           <span>タワーCへはグランフロント北館１階からしかアクセスできません</span>
         </div>
-        <router-link to="/session" class="c-btn1">
+        <a href="https://goo.gl/maps/cMUbCLyXWwv" class="c-btn1" target="_blank">
           <span>GoogleMapを開く</span>
-        </router-link>
-        <router-link to="/session" class="c-btn2">
+        </a>
+        <a href="https://www.kc-space.jp/accessmap/conference/towerc.html" class="c-btn2" target="_blank">
           <span>タワーCへの館内ルート</span>
-        </router-link>
+        </a>
       </div>
     </div>
   </section>
