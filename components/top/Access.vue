@@ -53,7 +53,7 @@
 
     .c-btn1 {
       @include c-btn--white;
-      margin: 0 1rem;
+      margin: .2rem 1rem;
     }
 
     .c-btn2 {
