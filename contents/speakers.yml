@@ -13,6 +13,8 @@ speakers:
       本セッションでは、Rustを使ったWebAssemblyの利用について、最新の動向や情報可視化研究における事例を混じえてご紹介します。
     profile: |
       日本大学 文理学部 情報科学科 助教、博士（工学）。大学での教育・研究の傍ら、趣味と実益を兼ねてWeb技術を追いかけています。ソフトウェアの高速化が好きです。
+    document:
+       - slide: https://speakerdeck.com/likr/rust-plus-webassemblydeguang-garuwebfalsewei-lai
   -
     title: Webデザインに本当に必要だったものを考える 2018年版
     name: 榊原昌彦
@@ -26,9 +28,11 @@ speakers:
       「足すことも引くこともできない完璧なグラフィック」「クライアントが100%満足してGoサインをだしてくれるデザインプロセス」
       「Webデザインで賞をとれるようなもの」、いろいろな現場でいろいろな意見があると思います。
       本セッションでは、Webデザインを「Web」というプラットフォームから見直し、本当に求められているものは何かを考えていこうと思います。
-    profile: | 
+    profile: |
       大学院卒業後、一般社団法人リレーションデザイン研究所立ち上げ。その後、まちづくりの産業化を目指す一般社団法人エリア・イノベーション・アライアンスにも参画し、全国の様々なまちづくりの現場に携わる。
       事業で用いるアプリやシステムの開発を行っている他、様々なコミュニティ活動に関わる。Ionic Japan Users Group代表、Ionicコアコントリビューター。著書「Ionicで作るモバイルアプリ制作入門」。
+    document:
+      - slide: https://speakerdeck.com/rdlabo/really-needed-for-webdesign
   -
     title: タイポグラフィ・ベーシック
     name: カイト
@@ -51,6 +55,8 @@ speakers:
       著書：
       『世界一わかりやすいWordPress 導入とサイト制作の教科書』
       『著作権トラブル解決のバイブル! クリエイターのための権利の本』
+    document:
+      - slide: https://speakerdeck.com/ixkaito/taipogurahuibesituku-plus-dezainaidea
   -
     title: 業務システムに使えるPWA
     name: 中津川篤司
@@ -70,6 +76,8 @@ speakers:
           ニフクラ mobile backend、hifive 、CloudGarage エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。
           2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。
           2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。
+    document:
+      - slide: https://speakerdeck.com/moongift/ye-wu-sisutemudekososhi-erupwa
   -
     title: 理想のデザインプロセスについて考える
     subtitle: EC-CUBE 4の管理画面デザインで学んだデザインプロセスの面白さ・難しさ
@@ -87,6 +95,9 @@ speakers:
       2009年からフリーランスとして多くのウェブサイト・モバイルアプリ・管理画面UIの設計・デザイン・CMS実装に携わる。
       2010年に日本最初期のコワーキングスペース「JUSO Coworking」を開業、様々なコミュニティ活動やイベントの支援も行っている。
       共著書に『世界一わかりやすいWordPress 導入とサイト制作の教科書』。
+    document:
+      - slide: https://speakerdeck.com/witch_doktor/li-xiang-falsedezainpurosesunituitekao-eru-ec-cube-4falseguan-li-hua-mian-dezaindexue-ndadezainpurosesufalsemian-bai-sanan-sisa
+        note: https://note.mu/witch_doktor/n/nc83ecde773af
   - title: Chrome Dev Summit Recap
     subtitle: 11/12-13でサンフランシスコで行われたCDSからWeb最新情報を紹介します。
     name: 宇都宮佑亮
@@ -98,6 +109,8 @@ speakers:
       今年もChrome Dev Summitが2018年に開催されます。ちょうどFRONTEND CONFERENCE 2018の、なんと一週間前に行われるこのカンファレンスで出た話題を、まとめてタイムリーにお届けまします。ChromeおよびOpen Webがどの方向に向かおうとしているのかを是非ともチェックしてください。
     profile: |
       Web大好き！Google シニア モバイル ソリューションズ コンサルタント。日本およびAPACのProgressive Web AppsとAMPの布教活動をさせて頂いておりますが、ただただトレンドに追いつくのに毎日必死です。
+    document:
+      - slide: https://www.slideshare.net/dynamis/httpp-and-5g-fixed1
   - title: デザイナ主導のプロトタイプ開発のススメ方
     name: コンチ
     image: /speakers/SP007.jpg
@@ -116,6 +129,8 @@ speakers:
       サイト設計からUIデザイン、CSSコーディング、解析、SEO、マーケティング、ライティング一通りなんでもできます。
       稼げるWebデザインをいつも考えて、なるべく働きたくないといつも思っています。
       焼き肉と寿司が好きです。
+    document:
+      slide: https://docs.google.com/presentation/d/1jkWXM19KDCB-E8-urLsqi0KbNIh3IBczAN7JhM1Ja98/edit#slide=id._ss_A37382EF-FB1B-41EE-9B44-614EBAF3508F_s
   - title: Web Musicでは何ができるのか
     subtitle:
     name: okunokentaro
@@ -127,6 +142,8 @@ speakers:
       ついにW3C Candidate RecommendationとなったWeb Audio APIの仕様。これだけでなく、現代のブラウザには音を扱うための様々なAPIが存在します。これらを駆使すれば何ができるのか、そして将来どのようなことが可能になりそうか。Web Musicの今をお伝えします。
     profile: |
           クレスウェア代表。音楽制作業界、フロントエンド・エンジニアを経て独立。Webと音楽の融合を掲げて新規事業を開発中。TypeScriptを用いた大規模なWebアプリケーション開発案件に複数携わり、DDDやCQRSといった設計手法を得意とする。ng-kyotoやAngular日本ユーザー会のオーガナイザとして、講演や執筆なども多数。
+    document:
+      - slide: https://speakerdeck.com/okunokentaro/web-music-latest-information
   - title: WEBアプリを作らない選択肢
     subtitle: 〜 初心者向けGAS講座 〜
     name: Wakai Shinichiro
@@ -147,6 +164,8 @@ speakers:
 
       プログラム初心者でも扱えるGASを私なりに噛み砕き、
       明日から使えるよう分かりやすく説明していきます。
+    document:
+      - slide: https://www.slideshare.net/ShinWakai/web-123853718
   - title: 綾なす CSS アニメーション
     name: 福壽卓哉
     image: /speakers/SP010.png
@@ -171,6 +190,8 @@ speakers:
 
       フィーチャーフォン向けソーシャルアプリのFlashゲーム、コンテンツ制作、企画運用から、ECサイトのプロジェクトマネジメント・開発を経験。
       「わかりよい」をモットーに、ユーザーテストやウェブ解析も取り入れつつ、現在は、React、AngularJS、Riotなどモダンなフロントエンド技術が採用されたプロジェクトでフロントエンドエンジニアとして従事。
+    document:
+      - slide: https://speakerdeck.com/aktuehr/develop-front-end-in-scrum
   - title: フロントエンドで作る理由
     subtitle: フロントエンドの技術が「あたりまえ」になるまで
     name: 後藤知宏
@@ -192,6 +213,8 @@ speakers:
       技術顧問として制作改善・技術指導に取り組みながら、制作業務を行っている。
       関西フロントエンド UG や 関西PHPユーザグループなど,
       PHP + フロントエンド に関する Web制作系のコミュニティを多数企画・運営。
+    document:
+      slide: https://speakerdeck.com/mikakane/hurontoendodezuo-ruli-you
   - title: デザインをいつみせるか、どう伝えるか
     subtitle: 制作フローの中にある、「相談」について考えてみました
     name: yasui risa
@@ -212,3 +235,5 @@ speakers:
       株式会社 chatbox デザイナー。デザインとフロントエンド業務をしながら、
       ミーティング等でのディレクション業務にも挑戦中です！
       趣味でイラストを描いたり、「デザイン・イラストゆるもく」というコミュニティを主催しています。
+    document:
+      slide: https://speakerdeck.com/cotolier_risa/dezainwoitumiseruka-douchuan-eruka
