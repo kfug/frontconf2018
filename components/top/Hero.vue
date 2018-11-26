@@ -10,9 +10,9 @@
         大阪 グランフロント
       </p>
       <div class="pickUp">
-        <p>受付チケット販売開始！</p>
-        <a class="btn" href="https://passmarket.yahoo.co.jp/event/show/detail/0152vyzwiiv8.html" target="_blank">
-          <span>チケット購入</span>
+        <p>盛会御礼！ありがとうございました！</p>
+        <a class="btn" href="/posts/thanks">
+          <span>開催御礼</span>
         </a>
         <br>
         <br>

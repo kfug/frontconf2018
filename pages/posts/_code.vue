@@ -212,8 +212,17 @@ export default {
       margin-bottom: 30px;
       font-size: 1.6rem;
       line-height: 1.7;
+
       @include desktop{
         font-size: 1.6rem;
+      }
+    }
+
+    .sponsor-about /deep/ {
+      h2,h3{
+        font-weight: bold;
+        margin-top: 2em;
+        margin-bottom: .5em;
       }
     }
     .sponsor-link{
