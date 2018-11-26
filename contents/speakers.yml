@@ -130,7 +130,7 @@ speakers:
       稼げるWebデザインをいつも考えて、なるべく働きたくないといつも思っています。
       焼き肉と寿司が好きです。
     document:
-      slide: https://docs.google.com/presentation/d/1jkWXM19KDCB-E8-urLsqi0KbNIh3IBczAN7JhM1Ja98/edit#slide=id._ss_A37382EF-FB1B-41EE-9B44-614EBAF3508F_s
+      - slide: https://docs.google.com/presentation/d/1jkWXM19KDCB-E8-urLsqi0KbNIh3IBczAN7JhM1Ja98/edit#slide=id._ss_A37382EF-FB1B-41EE-9B44-614EBAF3508F_s
   - title: Web Musicでは何ができるのか
     subtitle:
     name: okunokentaro
@@ -214,7 +214,7 @@ speakers:
       関西フロントエンド UG や 関西PHPユーザグループなど,
       PHP + フロントエンド に関する Web制作系のコミュニティを多数企画・運営。
     document:
-      slide: https://speakerdeck.com/mikakane/hurontoendodezuo-ruli-you
+      - slide: https://speakerdeck.com/mikakane/hurontoendodezuo-ruli-you
   - title: デザインをいつみせるか、どう伝えるか
     subtitle: 制作フローの中にある、「相談」について考えてみました
     name: yasui risa
@@ -236,4 +236,4 @@ speakers:
       ミーティング等でのディレクション業務にも挑戦中です！
       趣味でイラストを描いたり、「デザイン・イラストゆるもく」というコミュニティを主催しています。
     document:
-      slide: https://speakerdeck.com/cotolier_risa/dezainwoitumiseruka-douchuan-eruka
+      - slide: https://speakerdeck.com/cotolier_risa/dezainwoitumiseruka-douchuan-eruka
