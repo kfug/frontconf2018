@@ -22,6 +22,11 @@
             </h2>
             <span class="session-sub" v-if="session.subtitle">{{session.subtitle}}</span>
             <p class="session-about" v-html="session.body"></p>
+            <div class="text-center" v-if="session.document">
+              <a :href="session.document[0].slide" class="btn" target="_blank">
+                <span>登壇資料はこちら</span>
+              </a>
+            </div>
             <hr>
             <div class="speaker-prof">
               <div class="row">
@@ -49,13 +54,13 @@
                 </div>
               </div>
               <div class="speaker-link sp">
-                <a href="" v-if="session.twitter">
+                <a :href="session.twitter" v-if="session.twitter" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="" v-if="session.facebook">
+                <a :href="session.facebook" v-if="session.facebook" target="_blank">
                   <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="" v-if="session.url">
+                <a :href="session.url" v-if="session.url" target="_blank">
                   <i class="fas fa-link"></i>
                 </a>
               </div>
@@ -78,30 +83,30 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-import VueScrollTo from "vue-scrollto"
+  import AppLogo from '~/components/AppLogo.vue'
+  import VueScrollTo from "vue-scrollto"
 
-export default {
-  components: {
-    AppLogo
-  },
-  computed:{
-    sessions(){
-      return this.$store.state.speakers
-    }
-  },
-  mounted(){
-    const hash = location.hash
-    const target = document.getElementById(decodeURI(hash).substr(1))
-    console.log(target)
-    if(target){
-      VueScrollTo.scrollTo(target,500,{
-        offset: -80
-      })
+  export default {
+    components: {
+      AppLogo
+    },
+    computed:{
+      sessions(){
+        return this.$store.state.speakers
+      }
+    },
+    mounted(){
+      const hash = location.hash
+      const target = document.getElementById(decodeURI(hash).substr(1))
+      console.log(target)
+      if(target){
+        VueScrollTo.scrollTo(target,500,{
+          offset: -80
+        })
 
+      }
     }
   }
-}
 </script>
 
 <style lang="scss" scoped>
@@ -288,6 +293,35 @@ export default {
       @include c-title;
     }
 
+  }
+  .btn {
+    display: inline-block;
+    border-radius: 9999px;
+    padding: 10px 8px;
+    min-width: 220px;
+    margin: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $clr_baseText;
+    position: relative;
+    overflow: hidden;
+    background: $clr_bgGradation;
+    @include desktop {
+      min-width: 265px;
+      font-weight: normal;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -20px;
+      width: 300px;
+      height: 75px;
+      background: rgba(255,255,255,.9);
+    }
+    span {
+      position: relative;
+    }
   }
 </style>
 
