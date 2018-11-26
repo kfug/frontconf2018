@@ -7,7 +7,7 @@
       <p-access></p-access>
       <p-timetable/>
       <p-sponsorlist/>
-      <!--<p-staff/>-->
+      <p-staff/>
     </main>
 </template>
 
