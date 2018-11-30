@@ -7,14 +7,42 @@
             STAFF
           </h2>
           <div class="grid">
-            <div class="staff" v-for="staff in staffs" :key="staff.name">
-              <div class="staff-box" v-if="staff.toggle">
-                <a v-bind:href="staff.url"><img class="staff-img" v-bind:src="staff.icon"></a>
+            <div class="staff" v-for="(staff, key) in staffs" :key="key">
+              <div class="staff-box" v-if="staff.url && staff.icon">
+                <a v-bind:href="staff.url" target="_blank"><img class="staff-img d-block" v-bind:src="staff.icon"></a>
+              </div>
+              <div class="staff-box" v-else-if="!staff.url && staff.icon">
+                <img class="staff-img d-block" v-bind:src="staff.icon">
+              </div>
+              <div class="staff-box" v-else-if="staff.url && !staff.icon">
+                <a v-bind:href="staff.url" target="_blank"><img class="staff-img d-block" src="~/static/eggicon.png"></a>
               </div>
               <div class="staff-box" v-else>
-                <img class="staff-img" v-bind:src="staff.icon">
+                <img class="staff-img d-block" src="~/static/eggicon.png">
               </div>
               <span class="staff-name">{{ staff.name }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="intro">
+          <h2 class="c-title">
+            DESIGNER
+          </h2>
+          <div class="grid">
+            <div class="staff" v-for="(designer, key) in designers" :key="key">
+              <div class="staff-box" v-if="designer.url && designer.icon">
+                <a v-bind:href="designer.url" target="_blank"><img class="staff-img" v-bind:src="designer.icon"></a>
+              </div>
+              <div class="staff-box" v-else-if="!designer.url && designer.icon">
+                <img class="staff-img" v-bind:src="designer.icon">
+              </div>
+              <div class="staff-box" v-else-if="designer.url && !designer.icon">
+                <a v-bind:href="designer.url" target="_blank"><img class="staff-img" src="~/static/eggicon.png"></a>
+              </div>
+              <div class="staff-box" v-else>
+                <img class="staff-img" src="~/static/eggicon.png">
+              </div>
+              <span class="staff-name">{{ designer.name }}</span>
             </div>
           </div>
         </div>
@@ -26,30 +54,16 @@
 <script>
 export default {
   data() {
-    return {
-      staffs: [
-        { icon: 'https://via.placeholder.com/100', name: '名前1', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: 'パブロ・ディエゴ・ホセ・フランシスコ', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前3', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前4', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前5', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前6', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前7', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前8', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前9', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前10', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前11', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前12', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前13', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前14', toggle: true, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前15', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前16', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前17', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前18', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前19', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前20', toggle: false, url: '#'},
-        { icon: 'https://via.placeholder.com/100', name: '名前21', toggle: false, url: '#'},
-      ]
+    return {}
+  },
+  computed:{
+    staffs() {
+      console.log(this.$store.state.staffs.staffs)
+      return this.$store.state.staffs.staffs
+    },
+    designers() {
+      console.log(this.$store.state.staffs.designers)
+      return this.$store.state.staffs.designers
     }
   }
 }
@@ -95,8 +109,7 @@ export default {
           .staff-box {
             display: inline-block;
             .staff-img {
-              height: 100px;
-              margin-bottom: 10px;
+              height: 80px;
               border-radius: 300px;
             }
           }
