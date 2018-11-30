@@ -40,7 +40,7 @@ staffs:
     name: 竹内 大二郎
     url:
   -
-    icon: /staffs/ST011.jpeg
+    icon: /staffs/ST011.png
     name: 伊藤あさこ
     url:
   -
@@ -75,6 +75,10 @@ staffs:
     icon: /staffs/ST019.png
     name: Hack-Man
     url: https://twitter.com/mogus_workshop
+  -
+    icon: /staffs/ST020.png
+    name: かずきち
+    url:
 
 designers:
   -
