@@ -177,6 +177,8 @@ speakers:
       目的を見据えながら、いかに印象的に見せるか。こちらのセッションではそんなお話をしながら、具体例としてどんなプロジェクトでも使えるベーシックなものから、技巧を凝らしたものまでをご紹介したいと思います。
     profile: |
           フロントエンドエンジニア。大阪の企業にて Web 制作に従事。
+    document:
+      - slide: https://speakerdeck.com/chalkygames123/ling-nasu-css-animesiyon
   - title: 10名超えのスクラムでフロントエンド開発する現場の声
     subtitle:
     name: 上原晃人
