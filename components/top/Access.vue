@@ -87,8 +87,6 @@
         display: block;
       }
     }
-
-
     .access-discription {
       display: flex;
       flex-direction: column;

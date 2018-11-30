@@ -7,45 +7,42 @@
             STAFF
           </h2>
           <div class="grid">
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
+            <div class="staff" v-for="(staff, key) in staffs" :key="key">
+              <div class="staff-box" v-if="staff.url && staff.icon">
+                <a v-bind:href="staff.url" target="_blank"><img class="staff-img d-block" v-bind:src="staff.icon"></a>
+              </div>
+              <div class="staff-box" v-else-if="!staff.url && staff.icon">
+                <img class="staff-img d-block" v-bind:src="staff.icon">
+              </div>
+              <div class="staff-box" v-else-if="staff.url && !staff.icon">
+                <a v-bind:href="staff.url" target="_blank"><img class="staff-img d-block" src="~/static/eggicon.png"></a>
+              </div>
+              <div class="staff-box" v-else>
+                <img class="staff-img d-block" src="~/static/eggicon.png">
+              </div>
+              <span class="staff-name">{{ staff.name }}</span>
             </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
-            </div>
-            <div class="staff">
-              <img class="staff-img" src="">
-              <span class="staff-name">名前名前名前名前名前名前名前</span>
+          </div>
+        </div>
+        <div class="intro">
+          <h2 class="c-title">
+            DESIGNER
+          </h2>
+          <div class="grid">
+            <div class="staff" v-for="(designer, key) in designers" :key="key">
+              <div class="staff-box" v-if="designer.url && designer.icon">
+                <a v-bind:href="designer.url" target="_blank"><img class="staff-img" v-bind:src="designer.icon"></a>
+              </div>
+              <div class="staff-box" v-else-if="!designer.url && designer.icon">
+                <img class="staff-img" v-bind:src="designer.icon">
+              </div>
+              <div class="staff-box" v-else-if="designer.url && !designer.icon">
+                <a v-bind:href="designer.url" target="_blank"><img class="staff-img" src="~/static/eggicon.png"></a>
+              </div>
+              <div class="staff-box" v-else>
+                <img class="staff-img" src="~/static/eggicon.png">
+              </div>
+              <span class="staff-name">{{ designer.name }}</span>
             </div>
           </div>
         </div>
@@ -55,8 +52,26 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {}
+  },
+  computed:{
+    staffs() {
+      console.log(this.$store.state.staffs.staffs)
+      return this.$store.state.staffs.staffs
+    },
+    designers() {
+      console.log(this.$store.state.staffs.designers)
+      return this.$store.state.staffs.designers
+    }
+  }
+}
+
 
 </script>
+
+
 
 <style lang="scss" scoped>
   @import "~/assets/scss/_library.scss";
@@ -82,6 +97,7 @@
       .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
         @include desktop {
           grid-template-columns: repeat(7, 1fr);
         }
@@ -90,6 +106,18 @@
           width: 100px;
           height: 175px;
           margin-bottom: 20px;
+          .staff-box {
+            display: inline-block;
+            .staff-img {
+              height: 80px;
+              border-radius: 300px;
+            }
+          }
+          .staff-name {
+            font-size: 14px;
+            line-height: 1.5;
+            display: inline-block;
+          }
         }
       }
 

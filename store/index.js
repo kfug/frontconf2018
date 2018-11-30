@@ -1,5 +1,6 @@
 var {speakers} = require("../contents/speakers.yml");
 var {sponsors,media} = require("../contents/sponsors.yml");
+var {staffs,designers} = require("../contents/staffs.yml");
 
 export const state = () => {
   return {
@@ -19,6 +20,14 @@ export const state = () => {
       silver: sponsors.filter((sponsor)=>{
         return sponsor.rank == "silver"
       }),
+    },
+    staffs: {
+      staffs: staffs.filter((staff) => {
+        return staff.name
+      }),
+      designers: designers.filter((designer) => {
+        return designer.name
+      })
     }
   }
 }

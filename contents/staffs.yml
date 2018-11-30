@@ -1,0 +1,91 @@
+staffs:
+  -
+    icon: /staffs/ST001.jpg
+    name: ririko
+    url: https://twitter.com/riri_mohu
+  -
+    icon: /staffs/ST002.jpg
+    name: シマキョウスケ
+    url: https://twitter.com/shima_x_o
+  -
+    icon: /staffs/ST003.jpg
+    name: GOUTEN
+    url: https://5010works.com
+  -
+    icon: /staffs/ST004.jpg
+    name: 宮瀬 拓郎
+    url: https://twitter.com/biriken_jp
+  -
+    icon: /staffs/ST005.jpeg
+    name: 上平 千晶
+    url: https://pixelgram.jp
+  -
+    icon: /staffs/ST006.png
+    name: 小川 裕暉
+    url: https://pixelgram.jp
+  -
+    icon: /staffs/ST007.jpg
+    name: 原田 聖
+    url: https://pixelgram.jp
+  -
+    icon: /staffs/ST008.jpeg
+    name: ショウノシオリ
+    url: https://twitter.com/shosho_egg
+  -
+    icon: /staffs/ST009.jpg
+    name: 後藤 知宏
+    url: https://chatbox-inc.com/
+  -
+    icon:
+    name: 竹内 大二郎
+    url:
+  -
+    icon: /staffs/ST011.png
+    name: 伊藤あさこ
+    url:
+  -
+    icon: /staffs/ST012.jpg
+    name: たかし
+    url: https://twitter.com/takashimelon
+  -
+    icon: /staffs/ST013.jpg
+    name: なかむら
+    url: https://twitter.com/NakamuraHien?lang=ja
+  -
+    icon:
+    name: fumi
+    url: https://twitter.com/wi_7jtm
+  -
+    icon: /staffs/ST015.jpg
+    name: そるてぃ
+    url: https://twitter.com/salty317
+  -
+    icon: /staffs/ST016.jpg
+    name: かっきー
+    url: https://nnn-kakimoto.github.io/mySite/
+  -
+    icon:
+    name: かわと
+    url: https://twitter.com/@kawato930
+  -
+    icon:
+    name: むらとお
+    url:
+  -
+    icon: /staffs/ST019.png
+    name: Hack-Man
+    url: https://twitter.com/mogus_workshop
+  -
+    icon: /staffs/ST020.png
+    name: かずきち
+    url:
+
+designers:
+  -
+    icon: /designers/DG001.jpg
+    name: Yasui Risa
+    url: https://twitter.com/cotolier_risa
+  -
+    icon: /designers/DG002.jpg
+    name: ririko
+    url: https://twitter.com/riri_mohu
