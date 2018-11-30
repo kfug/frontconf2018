@@ -4,16 +4,14 @@
       <img class="circle--outline" src="~/static/images/parts_circle-outline.svg">
       <img class="line" src="~/static/images/parts_line.svg">
       <div class="c-block">
-        <h3 class="title">
-          ACCESS
-        </h3>
+        <h3 class="title">ACCESS</h3>
         <div class="access-box">
-          <img src="~/assets/images/top_access.png">
+          <img class="access-img" src="~/assets/images/top_access.png">
           <div class="access-discription">
             <p class="description towor-name">
               グラントフロント大阪 北館 タワーC８階
             </p>
-            <p class="description">
+            <p class="description address">
               〒530-0011 大阪市北区大深町3-1<br>
               グランフロント大阪 北区 タワーC８階
             </p>
@@ -55,7 +53,7 @@
 
     .c-btn1 {
       @include c-btn--white;
-      margin: 0 1rem;
+      margin: .2rem 1rem;
     }
 
     .c-btn2 {
@@ -64,10 +62,14 @@
     }
 
     img {
-      width: 150px;
-      height: 150px;
+      width: 80px;
+      height: 80px;
       margin-right: 50px;
       margin-bottom: 10px;
+      @include desktop {
+        width: 150px;
+        height: 150px;
+      }
     }
 
     .access-box {
@@ -75,6 +77,16 @@
       flex-wrap: wrap;
     }
 
+    .access-img {
+
+    }
+
+    .description.address{
+      display: none;
+      @include desktop {
+        display: block;
+      }
+    }
     .access-discription {
       display: flex;
       flex-direction: column;
